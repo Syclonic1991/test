@@ -56,3 +56,368 @@ html, body {
     font: $title-5-mobile;
   }
 }
+
+.paragraph-1 {
+  font: $paragraph-1;
+}
+
+.paragraph-2 {
+  font: $paragraph-2;
+}
+
+.paragraph-3 {
+  font: $paragraph-3;
+}
+
+//pallete
+
+.pallete-primary {
+  background-color: $primaryColor;
+}
+
+.pallete-secondary-1 {
+  background-color: $secondaryColor-1;
+}
+
+.pallete-secondary-2 {
+  background-color: $secondaryColor-2;
+}
+
+//buttons
+
+.projectBtn {
+  height: 36px;
+  line-height: 36px;
+  border-radius: 2px;
+  font-family: $body-font-1;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  border: 0;
+  text-align: center;
+  &--1 {
+    color: $whiteColor;
+    background-color: $primaryColor;
+    background-image: linear-gradient(to top, $primaryColor 0%, $primaryColor 100%);
+    &:hover {
+      color: $whiteColor;
+      background-color: $secondaryColor-1;
+      background-image: linear-gradient(to top, $secondaryColor-1 0%, $secondaryColor-1 100%);
+    }
+  }
+  &--2 {
+    border: 1px solid $primaryColor;
+    background-color: $whiteColor;
+    color: $primaryColor;
+    &:hover {
+      color: $whiteColor;
+      background-color: $primaryColor;
+    }
+  }
+  &.disabled,
+  &:disabled {
+    background-color: $disabledColor;
+    cursor: default;
+  }
+}
+
+.flatButton {
+  color: $secondaryColor-2;
+  font-family: $body-font-1;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  padding-right: 22px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  &:after {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-image: url('/assets/images/rounded.svg');
+    background-color: $primaryColor;
+    background-position: center;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    content: '';
+    right: 0;
+  }
+  &:hover {
+    color: $secondaryColor-2;
+    &:after {
+      background-image: url('/assets/images/rounded.svg');
+      background-color: $secondaryColor-2;
+      background-position: center;
+    }
+  }
+  &:disabled,
+  &.disabled {
+    color: $disabledColor;
+    cursor: default;
+    &:after {
+      background-image: url('/assets/images/rounded.svg');
+      background-color: $disabledColor;
+      background-position: center;
+    }
+  }
+}
+
+.floatButton {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-image: url('/assets/images/arrowToTop.svg');
+  background-color: $primaryColor;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  &:hover {
+    background-color: $secondaryColor-1;
+  }
+}
+
+//link
+
+.projectLink {
+  color: $secondaryColor-1;
+  font-family: $body-font-1;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  text-decoration: none;
+  &:hover {
+    color: $secondaryColor-2;
+    text-decoration: none;
+  }
+  &:focus {
+    text-decoration: none;
+  }
+}
+
+//checkbox
+
+.checkBoxWrap {
+  position: relative;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+input[type=checkbox]+label {
+  padding-left: 27px; 
+  margin: 0;
+  cursor: pointer;
+}
+
+input[type=checkbox]+label:before {
+  content: '';
+  text-align: center;
+  display: inline-block;
+  top: 3px;
+  position: absolute;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  border-radius: 2px;
+  border: 1px solid $checkBoxColor;
+  background-color: $whiteColor;
+}
+
+input[type=checkbox]:checked + label:after {
+  content: "";
+  width: 18px;
+  height: 18px;
+  background-image: url('/assets/images/check.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: $primaryColor;
+  position: absolute;
+  left: 0;
+  top: 3px;
+  border-radius: 2px;
+  border: 1px solid $primaryColor;
+}
+
+//icon
+
+.projectIcon {
+  path {
+    fill: $secondaryColor-1;
+  }
+  &:hover {
+    path {
+      fill: $primaryColor;
+    }
+  }
+  &.disabled {
+    path {
+      fill: $disabledColor;
+    }
+  }
+}
+
+//Alphabetical sorting
+.alphabeticalWrap {
+  display: flex;
+}
+.alphabeticalBlock {
+  height: 40px;
+  padding: 10px;
+  text-align: center;
+  color: $fontColor;
+  background-color: $whiteColor;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 40px;
+  cursor: pointer;
+  &:hover {
+    background-color: $primaryColor;
+    color: $whiteColor;
+  }
+  &--active {
+    color: $whiteColor;
+    background-color: $disabledColor;
+  }
+}
+
+//Fields
+.projectFormControl {
+  border: 0;
+  color: #000000;
+  font-family: $body-font-1;
+  font-size: 16px;
+  font-weight: 400;
+  width: 100%;
+  padding: 0 13px;
+  height: 40px;
+  margin: 18px 0 0;
+  outline: none;
+  &::-webkit-input-placeholder {
+    color: #b5b5b5;
+    font-weight: 400;
+  }
+  &::-moz-placeholder {
+    color: #b5b5b5;
+    font-weight: 400;
+  }
+  &:-ms-input-placeholder {
+    color: #b5b5b5;
+    font-weight: 400;
+  }
+  &:-moz-placeholder {
+    color: #b5b5b5;
+    font-weight: 400;
+  }
+}
+
+.projectFormGroup {
+  min-height: 60px;
+  position: relative;
+  box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 1px;
+  border: 1px solid $fieldColor;
+  background-color: $whiteColor;
+  margin: 0 0 20px;
+  label {
+    color: $labelColor;
+    font-family: $body-font-1;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 70px;
+    position: absolute;
+    top: 9px;
+    left: 13px;
+    line-height: 16px;
+  }
+  &--active {
+    border: 1px solid $secondaryColor-1;
+  }
+  &--withError {
+    border: 1px solid $fieldColorError;
+    .projectFormCounter {
+      color: $fieldColorError;
+    }
+  }
+  textarea.projectFormControl {
+    resize: none;
+    min-height: 94px;
+    margin: 24px 0 0;
+  }
+}
+
+.projectFormCounter {
+  color: $labelColor;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  top: 9px;
+  right: 13px;
+}
+
+.projectBtn-group {
+  width: 100%;
+}
+
+.dropDownBtn {
+  height: 40px;
+  line-height: 40px;
+  border-radius: 1px;
+  border: 1px solid $fieldColor;
+  background-color: $whiteColor;
+  width: 100%;
+  text-align: left;
+  border-right: 0;
+  cursor: pointer;
+  &:hover {
+    color: $primaryColor;
+  }
+}
+
+.dropDownArrow {
+  background-image: url('/assets/images/arrowDown.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid $fieldColor;
+  border-left: 0;
+  box-shadow: none;
+  padding: 17px;
+}
+
+.projectBtn-group {
+  .dropdown-menu {
+    top: -2px;
+    left: 0;
+    right: 0;
+    box-shadow: 0 8px 20px rgba(43, 34, 34, 0.3);
+    border-radius: 2px;
+    background-color: #ffffff;
+    padding: 0;
+  }
+  .dropdown-item {
+    padding: 9px 16px;
+    min-height: 40px;
+    color: #1a1a1a;
+    font-family: $body-font-1;
+    font-size: 16px;
+    font-weight: 400;
+    &:hover {
+      background-color: $primaryColor;
+      color: $whiteColor;
+    }
+    &.active {
+      color: $primaryColor;
+    }
+  }
+}

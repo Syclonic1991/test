@@ -1,5 +1,6 @@
 node_modules
-/public/assets
+public/assets/app.bundle.js
+public/assets/app.css
 /*.log
 *.lock
 .idea
