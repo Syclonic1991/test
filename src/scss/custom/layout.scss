@@ -1,0 +1,15 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.pageWrap {
+    min-height: 100%;
+    margin-bottom: -313px;
+}
+* html .pageWrap {
+    height: 100%;
+}
+.pageBuffer {
+    height: 313px;
+}
