@@ -1,0 +1,7 @@
+node_modules
+/public/assets
+/*.log
+*.lock
+.idea
+**/.DS_Store
+package-lock.json
