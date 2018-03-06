@@ -1,0 +1,23 @@
+$head-font: 'Ubuntu',sans-serif;
+$body-font: 'Open Sans',sans-serif;
+
+$breakpointMobile: 576px;
+$breakpointTablet: 768px;
+$breakpointDesktop: 992px;
+$breakpointLarge: 1200px;
+
+//typography desktop
+
+$title-1: 400 90px $head-font;
+$title-2: 400 70px $head-font;
+$title-3: 400 50px $head-font;
+$title-4: 400 40px $head-font;
+$title-5: 400 18px $head-font;
+
+//typography mobile
+
+$title-1-mobile: 400 30px $head-font;
+$title-2-mobile: 400 24px $head-font;
+$title-3-mobile: 400 22px $head-font;
+$title-4-mobile: 400 18px $head-font;
+$title-5-mobile: 400 16px $head-font;

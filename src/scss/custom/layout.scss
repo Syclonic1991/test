@@ -1,15 +1,58 @@
+@import "custom/variables";
+
 html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 .pageWrap {
-    min-height: 100%;
-    margin-bottom: -313px;
+  min-height: 100%;
+  margin-bottom: -313px;
 }
 * html .pageWrap {
-    height: 100%;
+  height: 100%;
 }
 .pageBuffer {
-    height: 313px;
+  height: 313px;
+}
+
+//typography
+.title-1 {
+  font: $title-1;
+
+  @media(max-width: #{$breakpointTablet}) {
+    font: $title-1-mobile;
+  }
+}
+
+.title-2 {
+  font: $title-2;
+
+  @media(max-width: #{$breakpointTablet}) {
+    font: $title-2-mobile;
+  }
+}
+
+.title-3 {
+  font: $title-3;
+
+  @media(max-width: #{$breakpointTablet}) {
+    font: $title-3-mobile;
+  }
+}
+
+.title-4 {
+  font: $title-4;
+
+  @media(max-width: #{$breakpointTablet}) {
+    font: $title-4-mobile;
+  }
+}
+
+.title-5 {
+  font: $title-5;
+
+  @media(max-width: #{$breakpointTablet}) {
+    font: $title-5-mobile;
+  }
 }
