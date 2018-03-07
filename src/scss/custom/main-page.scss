@@ -1,7 +1,137 @@
 .advantagesButton {
-    max-width: 290px;
-    margin: 0 auto;
+  max-width: 290px;
+  margin: 34px auto 0;
+  @media(max-width: $breakpointMobile) {
+    margin: -18px auto 0;
+  }
 }
 .advBlock {
-    text-align: center;
+  text-align: center;
+  font-family: $body-font-1;
+  margin: 0 0 45px;
+  @media(max-width: $breakpointMobile) {
+    margin: 0 0 43px;
+  }
+}
+
+.advBlockText {
+  color: $blackColor;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 34px;
+  @media(max-width: $breakpointMobile) {
+    margin-top: 15px;
+  }
+}
+
+.advantagesWrap {
+  overflow: hidden;
+  position: relative;
+  padding: 50px 0;
+  .container {
+    position: relative;
+  }
+  .paragraph-2 {
+    width: 100%;
+    margin-top: 26px;
+    @media(min-width: $breakpointTablet) {
+      margin-left: 35px;
+      max-width: 510px;
+    }
+    @media(min-width: $breakpointDesktop) {
+      margin-left: 85px;
+      max-width: 510px;
+    }
+    @media(min-width: $breakpointLarge) {
+      margin-left: 87px;
+      max-width: 680px;
+    }
+    @media(max-width: $breakpointMobile) {
+      margin-left: 0;
+      max-width: 80%;
+      margin-top: 19px;
+    }
+  }
+  @media(max-width: $breakpointMobile) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.advantagesImageBack {
+  position: absolute;
+  top: -47px;
+  right: -81px;
+  @media(min-width: $breakpointMobile) {
+    right: -253px;
+    img {
+      max-height: 303px;
+    }
+  }
+  @media(min-width: $breakpointTablet) {
+    right: -253px;
+    img {
+      max-height: inherit;
+    }
+  }
+  @media(min-width: $breakpointDesktop) {
+    right: -183px;
+  }
+  @media(min-width: $breakpointLarge) {
+    right: -253px;
+  }
+  @media(max-width: $breakpointMobile) {
+    top: -27px;
+    right: -175px;
+    img {
+      max-height: 303px;
+    }
+  }
+}
+
+.advantagesBlocks {
+  margin: 82px 0 0;
+  @media(max-width: $breakpointMobile) {
+    margin: 29px 0 0;
+  }
+}
+
+.advImage {
+  min-height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media(max-width: $breakpointMobile) {
+    &--1 {
+      img {
+        height: 56px;
+      }
+    }
+    &--2 {
+      img {
+        height: 61px;
+      }
+    }
+    &--3 {
+      img {
+        height: 65px;
+      }
+    }
+    &--4 {
+      img {
+        height: 55px;
+      }
+    }
+    &--5 {
+      img {
+        height: 66px;
+      }
+    }
+    &--6 {
+      img {
+        height: 59px;
+      }
+    }
+  }
 }
