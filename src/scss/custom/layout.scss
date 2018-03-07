@@ -185,6 +185,18 @@ html, body {
 
 //link
 
+a {
+  text-decoration: none;
+  outline: none;
+  &:hover {
+    text-decoration: none;
+  }
+  &:focus,
+  &:active {
+    text-decoration: none;
+  }
+}
+
 .projectLink {
   color: $secondaryColor-1;
   font-family: $body-font-1;
