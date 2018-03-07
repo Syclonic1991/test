@@ -1,0 +1,115 @@
+@import "../variables";
+
+.blockPhoto {
+  position: relative;
+  width: 100%;
+  height: 547px;
+}
+
+.blockPhoto__bg {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: flex-end;
+  width: 60%;
+  height: 547px;
+  background: url('/assets/images/main-photo-1.jpg') no-repeat 100% center;
+  @media (max-width: #{$breakpointDesktop}) {
+    background-position: 65% top;
+  }
+  @media (max-width: #{$breakpointTablet}) {
+    height: 400px;
+    background-position: 20% top;
+  }
+  @media (max-width: #{$breakpointMobile}) {
+    width: 248px;
+  }
+}
+
+.blockPhoto__overlay {
+  position: relative;
+  width: 325px;
+  height: 420px;
+  background-color: rgba(#abe2ff, 0.8);
+  @media (max-width: #{$breakpointTablet}) {
+    width: 248px;
+    height: 340px;
+  }
+
+  &::before, &::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 30px;
+    height: 64px;
+    background-color: #fff;
+  }
+
+  &::before {
+    top: -64px;
+  }
+
+  &::after {
+    bottom: -64px;
+  }
+}
+
+.blockPhoto__content-wrap {
+  position: absolute;
+  top: 112px;
+  left: 0;
+  right: 0;
+  @media (max-width: #{$breakpointTablet}) {
+    top: 54px;
+  }
+}
+
+.blockPhoto__content {
+  margin-left: 0;
+  @media (min-width: #{$breakpointMobile}) {
+    margin-left: 20%;
+  }
+  @media (min-width: #{$breakpointDesktop}) {
+    margin-left: 30%;
+  }
+  @media (min-width: $breakpointLarge) {
+    margin-left: 40%;
+  }
+
+  h2 {
+    letter-spacing: -0.8px;
+    @media (max-width: #{$breakpointMobile}) {
+      margin-left: 15px;
+      letter-spacing: 0;
+    }
+  }
+
+  p {
+    margin-right: 20px;
+    margin-left: 82px;
+    margin-top: 27px;
+    line-height: 22px;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.7);
+    @media (max-width: #{$breakpointTablet}) {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    @media (max-width: #{$breakpointMobile}) {
+      margin-left: 15px;
+      margin-top: 17px;
+    }
+  }
+
+  button {
+    float: right;
+    width: 210px;
+    margin-right: 10px;
+    margin-top: 8px;
+    @media (max-width: #{$breakpointMobile}) {
+      float: none;
+      width: calc(100% - 30px);
+      margin-right: 0;
+      margin-left: 15px;
+    }
+  }
+}
