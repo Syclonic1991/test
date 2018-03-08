@@ -17,6 +17,10 @@ html, body {
   height: 313px;
 }
 
+.image {
+  max-width: 100%;
+}
+
 //typography
 .title-1 {
   font: $title-1;
@@ -64,10 +68,19 @@ html, body {
 
 .paragraph-2 {
   font: $paragraph-2;
+  line-height: 22px;
 }
 
 .paragraph-3 {
   font: $paragraph-3;
+}
+
+.blackColor {
+  color: $blackColor;
+}
+
+.fontColor {
+  color: $fontColor;
 }
 
 //pallete
