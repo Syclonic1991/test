@@ -1,6 +1,9 @@
 .review {
-  margin: 0 auto;
+  margin: -210px auto 0;
   padding: 0 30px;
+  @media (min-width: $breakpointTablet) and (max-width: $breakpointDesktop) {
+    margin-top: -140px;
+  }
 }
 
 .review__container {
