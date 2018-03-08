@@ -7,7 +7,7 @@
     <!--styles-->
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     <!---->
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--fonts-->
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
@@ -111,7 +111,7 @@
             </div>
         </div>
     </section>
-    <section class="blockPhoto">
+    <section class="blockPhoto questionsWrap">
         <div class="blockPhoto__bg">
             <div class="blockPhoto__img-wrap">
                 <img src="/assets/images/main-photo-1.jpg" alt="">

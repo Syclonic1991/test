@@ -11,7 +11,7 @@
   width: 100%;
   max-width: 769px;
   padding: 40px 100px 0;
-  margin: 0 auto;
+  margin: 0 auto 120px;
   box-shadow: 0 16px 30px rgba(43, 34, 34, 0.3);
   background-color: $backgroundColor;
   opacity: 0.95;
@@ -24,6 +24,7 @@
   display: flex;
   flex-flow: row nowrap;
   height: 48px;
+  padding-left: 6px;
 }
 
 .review__photo {
@@ -37,11 +38,13 @@
   font-family: $body-font-1;
   font-size: 14px;
   padding-left: 20px;
+  padding-top: 8px;
 }
 
 .review__name {
   color: $blackColor;
   font-weight: 600;
+  line-height: 14px;
 }
 
 .review__date {
@@ -52,7 +55,8 @@
 .review__text {
   color: $fontColor;
   line-height: 22px;
-  padding-top: 20px;
+  padding-top: 14px;
+  padding-left: 3px;
   @media (max-width: $breakpointMobile) {
     overflow: hidden;
     height: 110px;
@@ -63,7 +67,7 @@
   position: absolute;
   width: 48px;
   height: 48px;
-  top: calc(50% - 24px);
+  top: calc(50% - 12px);
   cursor: pointer;
   @media (max-width: $breakpointMobile) {
     top: auto;
@@ -93,7 +97,7 @@
   justify-content: center;
   align-items: flex-end;
   width: 100%;
-  height: 80px;
+  height: 75px;
 }
 
 .review__bullet {
