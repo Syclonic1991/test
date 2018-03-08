@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="{{ app()->getLocale() }}">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Главная</title>
 
     <!--styles-->
-    <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     <!---->
 
     <!--fonts-->
@@ -37,6 +37,80 @@
     </div>
 </header>
 <div class="pageWrap">
+    <section>
+        <div class="serviceWrap">
+            <div class="container posRel">
+                <div class="advantagesImageBack"><img src="/assets/images/a-image.svg"></div>
+                <div class="serviceContainer">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="title-2 blackColor">Услуги центра</div>
+                        </div>
+                        <div class="col-12">
+                            <div class="paragraph-2 fontColor">
+                                <p>Платные медосмотры и профосмотры могут проводиться на базе нашего медицинского центра, также мы предлагаем выездное медобслуживание.</p>
+                                <p class="d-none d-sm-block">У нас можно сдать обязательные и дополнительные лабораторные анализы. Результаты будут готовы в сжатые сроки.</p>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="serviceBlocks">
+                                <div class="row">
+                                    <div class="col-md-3 col-6">
+                                        <div class="serviceBlock">
+                                            <div class="serviceBlockImage"><img src="/assets/images/service-1.svg"></div>
+                                            <div class="serviceBlockText">Профосмотры</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-6">
+                                        <div class="serviceBlock">
+                                            <div class="serviceBlockImage"><img src="/assets/images/service-2.svg"></div>
+                                            <div class="serviceBlockText">Медосмотры</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-6">
+                                        <div class="serviceBlock">
+                                            <div class="serviceBlockImage"><img src="/assets/images/service-3.svg"></div>
+                                            <div class="serviceBlockText">Лабораторные анализы</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-6">
+                                        <div class="serviceBlock">
+                                            <div class="serviceBlockImage"><img src="/assets/images/service-4.svg"></div>
+                                            <div class="serviceBlockText">Диагностика</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-6">
+                                        <div class="serviceBlock">
+                                            <div class="serviceBlockImage"><img src="/assets/images/service-5.svg"></div>
+                                            <div class="serviceBlockText">Обследование</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-6">
+                                        <div class="serviceBlock">
+                                            <div class="serviceBlockImage"><img src="/assets/images/service-6.svg"></div>
+                                            <div class="serviceBlockText">Оформление документов</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-6">
+                                        <div class="serviceBlock">
+                                            <div class="serviceBlockImage"><img src="/assets/images/service-7.svg"></div>
+                                            <div class="serviceBlockText">Медкомиссии</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-6">
+                                        <div class="serviceBlock">
+                                            <div class="serviceBlockImage"><img src="/assets/images/service-8.svg"></div>
+                                            <div class="serviceBlockText">Паспорт здоровья</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="blockPhoto">
         <div class="blockPhoto__bg">
             <div class="blockPhoto__img-wrap">
@@ -66,7 +140,7 @@
                             <div class="title-2 blackColor">Мы заслужили<br>доверие</div>
                         </div>
                         <div class="col-12">
-                            <div class="paragraph-2 confidenceText">
+                            <div class="paragraph-2 confidenceText fontColor">
                                 <p class="d-block d-md-none">Среди наших пациентов не только отдельные люди, но и огромные компании, насчитывающие сотни сотрудником, которые с удовольствием пользуються услугами центра уже много лет.</p>
                                 <p class="d-none d-md-block">Платные медосмотры и профосмотры могут проводиться на базе нашего медицинского центра, также мы предлагаем выездное медобслуживание.</p>
                                 <p class="d-none d-md-block">У нас можно сдать обязательные и дополнительные лабораторные анализы. Результаты будут готовы в сжатые сроки.</p>
@@ -330,6 +404,6 @@
         </div>
     </div>
 </footer>
-<script src="/js/app.js"></script>
+<script src="{{ mix('js/app.js') }}"></script>
 </body>
 </html>

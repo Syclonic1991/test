@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('/styleguide', function () {
-    return view('welcome');
+    return view('styleguide');
 });
 
 Route::get('/welcome', function () {
