@@ -1,3 +1,64 @@
+//service block begin
+.serviceWrap {
+  padding: 185px 0;
+}
+.serviceContainer {
+  .title-2 {
+    margin-bottom: 26px;
+  }
+  p {
+    margin-bottom: 22px;
+  }
+  .paragraph-2 {
+    width: 100%;
+    @media(min-width: $breakpointTablet) {
+      margin-left: 35px;
+      max-width: 510px;
+    }
+    @media(min-width: $breakpointDesktop) {
+      margin-left: 85px;
+      max-width: 510px;
+    }
+    @media(min-width: $breakpointLarge) {
+      margin-left: 87px;
+      max-width: 680px;
+    }
+    @media(max-width: $breakpointMobile) {
+      margin-left: 0;
+      max-width: 80%;
+      margin-top: 19px;
+    }
+  }
+  @media(max-width: $breakpointTablet) {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 20px 15px;
+  }
+}
+.serviceBlock {
+  text-align: center;
+  margin: 0 0 47px;
+}
+.serviceBlocks {
+  margin: 43px 0 0;
+}
+.serviceBlockImage {
+  height: 100px;
+  width: 100px;
+  box-shadow: 0 10px 20px rgba(43, 34, 34, 0.2);
+  background-color: #ffffff;
+  @include flexCenter;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 16px;
+}
+.serviceBlockText {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 400;
+}
+//service block end
+
 .confidenceWrap {
   padding: 83px 0;
   .title-2 {
@@ -249,9 +310,7 @@
 
 .advImage {
   min-height: 68px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flexCenter;
   @media(max-width: $breakpointMobile) {
     &--1 {
       img {
