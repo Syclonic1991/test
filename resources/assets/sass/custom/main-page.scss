@@ -76,6 +76,46 @@
     max-width: 90px;
     max-height: 90px;
     margin: 0 auto 24px;
+    &--1 {
+      img {
+        max-width: 42px;
+      }
+    }
+    &--2 {
+      img {
+        max-width: 46px;
+      }
+    }
+    &--3 {
+      img {
+        max-width: 47px;
+      }
+    }
+    &--4 {
+      img {
+        max-width: 50px;
+      }
+    }
+    &--5 {
+      img {
+        max-width: 52px;
+      }
+    }
+    &--6 {
+      img {
+        max-width: 48px;
+      }
+    }
+    &--7 {
+      img {
+        max-width: 50px;
+      }
+    }
+    &--8 {
+      img {
+        max-width: 50px;
+      }
+    }
   }
 }
 .serviceBlockText {
@@ -371,4 +411,48 @@
       }
     }
   }
+}
+.bannerContainer {
+  position: relative;
+  background-color: #0494df;
+  overflow: hidden;
+}
+.bannerBlockLine {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.bannerBlockLine-1 {
+  margin-top: -103px;
+  @media(max-width: $breakpointTablet) {
+    margin-top: -30px;
+  }
+}
+.bannerImage {
+  width: 256px;
+  height: 190px;
+  min-width: 256px;
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  @media(max-width: $breakpointTablet) {
+    width: 106px;
+    height: 79px;
+    min-width: 106px;
+  }
+}
+.bannerText {
+  @include positionAbsCenter();
+  @include flexCenter();
+  top: 87px;
+  @media(max-width: $breakpointTablet) {
+    top: 49px;
+    svg {
+      max-width: 237px;
+    }
+  } 
 }
