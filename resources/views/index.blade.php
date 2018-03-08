@@ -111,7 +111,7 @@
             </div>
         </div>
     </section>
-    <section class="blockPhoto">
+    <section class="blockPhoto blockPhoto--only-text">
         <div class="blockPhoto__bg">
             <div class="blockPhoto__img-wrap">
                 <img src="/assets/images/main-photo-1.jpg" alt="">

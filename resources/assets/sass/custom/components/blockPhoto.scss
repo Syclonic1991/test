@@ -2,6 +2,11 @@
   position: relative;
   width: 100%;
   height: 547px;
+  &--only-text {
+    @media (max-width: #{$breakpointTablet}) {
+      height: 419px;
+    }
+  }
 }
 
 .blockPhoto__bg {

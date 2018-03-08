@@ -4,6 +4,9 @@
   @media (min-width: $breakpointTablet) and (max-width: $breakpointDesktop) {
     margin-top: -140px;
   }
+  @media (max-width: $breakpointTablet) {
+    margin-bottom: 50px;
+  }
 }
 
 .review__container {

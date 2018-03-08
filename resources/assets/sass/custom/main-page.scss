@@ -1,10 +1,17 @@
 //service block begin
 .serviceWrap {
   padding: 185px 0;
+  overflow: hidden;
+  @media(max-width: $breakpointTablet) {
+    padding: 35px 0 23px;
+  }
 }
 .serviceContainer {
   .title-2 {
     margin-bottom: 26px;
+    @media(max-width: $breakpointTablet) {
+      margin-bottom: 0;
+    }
   }
   p {
     margin-bottom: 22px;
@@ -38,9 +45,23 @@
 .serviceBlock {
   text-align: center;
   margin: 0 0 47px;
+  @media(max-width: $breakpointTablet) {
+    margin: 0 0 38px;
+  }
 }
 .serviceBlocks {
   margin: 43px 0 0;
+  @media(max-width: $breakpointTablet) {
+    margin: 0;
+    .col-md-3 {
+      &:nth-child(7),
+      &:nth-child(8) {
+        .serviceBlock {
+          margin: 0;
+        }
+      }
+    }
+  }
 }
 .serviceBlockImage {
   height: 100px;
@@ -51,6 +72,11 @@
   border-radius: 50%;
   overflow: hidden;
   margin: 0 auto 16px;
+  @media(max-width: $breakpointTablet) {
+    max-width: 90px;
+    max-height: 90px;
+    margin: 0 auto 24px;
+  }
 }
 .serviceBlockText {
   color: #000000;
@@ -61,6 +87,7 @@
 
 .confidenceWrap {
   padding: 83px 0;
+  overflow: hidden;
   .title-2 {
     margin: 0 0 25px;
   }
@@ -266,7 +293,7 @@
   @media(max-width: $breakpointTablet) {
     padding-left: 15px;
     padding-right: 15px;
-    padding: 20px 15px;
+    padding: 20px 15px 50px;
   }
 }
 
