@@ -17,6 +17,10 @@ html, body {
   height: 313px;
 }
 
+.image {
+  max-width: 100%;
+}
+
 //typography
 .title-1 {
   font: $title-1;
