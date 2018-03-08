@@ -30,6 +30,12 @@
   font-weight: 400;
   line-height: 18px;
   margin: 0 0 12px;
+  a {
+    color: $footerTextColor;
+    &:hover {
+      color: $secondaryColor-2;
+    }
+  }
 }
 
 .footerSocialContainer {
@@ -62,7 +68,7 @@
   &:hover {
     svg {
       path {
-        fill: #3ec4f0;
+        fill: $secondaryColor-1;
       }
     }
   }
@@ -99,7 +105,7 @@
   color: #444b53;
   line-height: 30px;
   &:hover {
-    color: #0878cf;
+    color: $secondaryColor-2;
   }
 }
 
@@ -120,6 +126,12 @@
     max-width: 180px;
     margin: 31px auto 0px;
     line-height: 16px;
+  }
+  a {
+    color: #8f98a1;
+    &:hover {
+      color: $secondaryColor-2;
+    }
   }
 }
 

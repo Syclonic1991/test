@@ -1,5 +1,3 @@
-@import "custom/variables";
-
 html, body {
   height: 100%;
   margin: 0;
@@ -15,6 +13,10 @@ html, body {
 }
 .pageBuffer {
   height: 313px;
+}
+
+.image {
+  max-width: 100%;
 }
 
 //typography
@@ -64,10 +66,19 @@ html, body {
 
 .paragraph-2 {
   font: $paragraph-2;
+  line-height: 22px;
 }
 
 .paragraph-3 {
   font: $paragraph-3;
+}
+
+.blackColor {
+  color: $blackColor;
+}
+
+.fontColor {
+  color: $fontColor;
 }
 
 //pallete

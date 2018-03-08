@@ -1,8 +1,54 @@
+$head-font: 'Ubuntu',sans-serif;
+$body-font-1: 'Open Sans',sans-serif;
+$body-font-2: 'Roboto',sans-serif;
 
-// Body
-$body-bg: #f5f8fa;
+$breakpointMobile: 576px;
+$breakpointTablet: 768px;
+$breakpointDesktop: 992px;
+$breakpointLarge: 1200px;
 
-// Typography
-$font-family-sans-serif: "Raleway", sans-serif;
-$font-size-base: 0.9rem;
-$line-height-base: 1.6;
+$primaryColor: #05a5f8;
+$secondaryColor-1: #3ec4f0;;
+$secondaryColor-2: #0878cf;
+
+$backgroundColor: #fff;
+$backgroundColor-2: #f6f6f6;
+
+$disabledColor: #d9d9d9;
+$whiteColor: #fff;
+$blackColor: #000;
+
+$checkBoxColor: #05a1f2;
+
+$fontColor: #444b53;
+
+$fieldColor: #dfdfdf;
+$fieldColorError: #fd5c5c;
+
+$labelColor: #b5b5b5;
+
+//footer colors
+$footerTextColor: #9e9e9e;
+$footerSocialColor: #c2c2c2;
+
+//heading desktop
+
+$title-1: 400 90px $head-font;
+$title-2: 400 70px/70px $head-font;
+$title-3: 400 50px $head-font;
+$title-4: 400 40px $head-font;
+$title-5: 400 18px $head-font;
+
+//heading mobile
+
+$title-1-mobile: 400 30px $head-font;
+$title-2-mobile: 400 24px $head-font;
+$title-3-mobile: 400 22px $head-font;
+$title-4-mobile: 400 18px $head-font;
+$title-5-mobile: 400 16px $head-font;
+
+//paragraph
+
+$paragraph-1: 600 14px $body-font-1;
+$paragraph-2: 400 14px $body-font-1;
+$paragraph-3: 400 12px $body-font-2;
