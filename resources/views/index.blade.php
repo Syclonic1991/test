@@ -16,8 +16,10 @@
 </head>
 <body>
 <header class="header">
-    <div class="header__blur">
-        <iframe id="blurClone" style="opacity: 0" frameborder="0"></iframe>
+    <div class="header__blur-wrap">
+        <div class="header__blur">
+            <iframe id="blurClone" style="opacity: 0" frameborder="0"></iframe>
+        </div>
     </div>
     <div class="header__content">
         <div class="container-fluid">
