@@ -8,3 +8,12 @@ const sliderEllipsis = Ellipsis({
 });
 
 sliderEllipsis.add(document.querySelectorAll('.reviewText'));
+
+$('.sliderContent').slick({
+  dots: true,
+  speed: 500,
+  prevArrow: '.sliderPrevArrow',
+  nextArrow: '.sliderNextArrow',
+  appendDots: '.sliderContainer',
+  dotsClass: 'review__pagination sliderPagination',
+});

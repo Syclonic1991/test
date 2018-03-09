@@ -23,6 +23,13 @@
   }
 }
 
+.review__content {
+  display: none;
+  &.slick-initialized {
+    display: block;
+  }
+}
+
 .review__header {
   display: flex;
   flex-flow: row nowrap;
@@ -56,13 +63,12 @@
 }
 
 .review__text {
+  max-height: 124px;
   color: $fontColor;
   line-height: 22px;
   padding-top: 14px;
   padding-left: 3px;
-  @media (max-width: $breakpointMobile) {
-    overflow: hidden;
-  }
+  overflow: hidden;
 }
 
 .review__prev, .review__next {
@@ -100,22 +106,28 @@
   align-items: flex-end;
   width: 100%;
   height: 75px;
-}
+  padding: 0;
+  margin: 0;
+  list-style: none;
 
-.review__bullet {
-  width: 12px;
-  height: 12px;
-  margin: 0 14px 50px;
-  background-color: $backgroundColor;
-  border: 1px solid $secondaryColor-1;
-  border-radius: 50%;
-  cursor: pointer;
-  @media (max-width: $breakpointMobile) {
-    margin-bottom: 36px;
+  button {
+    width: 12px;
+    height: 12px;
+    margin: 0 14px 50px;
+    padding: 0;
+    background-color: $backgroundColor;
+    border: 1px solid $secondaryColor-1;
+    outline: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    text-indent: -9999px;
+    @media (max-width: $breakpointMobile) {
+      margin-bottom: 36px;
+    }
   }
-}
 
-.review__bullet--active {
-  background-color: $secondaryColor-1;
-  border: 1px solid transparent;
+  li.slick-active button {
+    background-color: $secondaryColor-1;
+    border: 1px solid transparent;
+  }
 }

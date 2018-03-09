@@ -47,11 +47,14 @@
 }
 
 .header__logo {
+  display: block;
   width: 100%;
+  max-width: 220px;
   height: 87px;
   background: url('/assets/images/logo.svg') no-repeat 15px 13px;
 
   @include media-breakpoint-down(sm) {
+    max-width: 140px;
     height: 49px;
     background: url('/assets/images/logo-mobile.svg') no-repeat 5px 10px;
   }
@@ -108,6 +111,6 @@
   }
 
   &:hover > div {
-    background-color: $secondaryColor-1;
+    background-color: $primaryColor;
   }
 }

@@ -1,16 +1,20 @@
 // Fonts
 //@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
 
+// Libs
+@import "~bootstrap/scss/bootstrap";
+@import "~slick-carousel/slick/slick";
+
 // Variables
 @import "variables";
 
-// Bootstrap
-@import "~bootstrap/scss/bootstrap";
-
+// Blocks
 @import "custom/layout";
 @import "custom/mixins";
-@import "custom/main-page";
 @import "custom/components/header";
 @import "custom/components/footer";
 @import "custom/components/blockPhoto";
 @import "custom/components/review";
+
+// Pages
+@import "custom/pages/main";
