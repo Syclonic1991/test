@@ -16,7 +16,9 @@
 </head>
 <body>
 <header class="header">
-    <div class="header__blur"></div>
+    <div class="header__blur">
+        <iframe id="blurClone" style="opacity: 0" frameborder="0"></iframe>
+    </div>
     <div class="header__content">
         <div class="container">
             <div class="row align-items-center">
@@ -36,7 +38,7 @@
         </div>
     </div>
 </header>
-<div class="pageWrap">
+<div class="pageWrap" id="pageWrap">
     <section>
         <div>
             <div class="bannerContainer">
