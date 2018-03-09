@@ -430,12 +430,20 @@
   width: 256px;
   height: 190px;
   min-width: 256px;
+  background-color: #0494df;
   img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
+    opacity: 0;
+    transition: all 900ms ease;
   }
+  &.ready {
+    img{
+      opacity: 1;
+    }
+  }  
   @media(max-width: $breakpointTablet) {
     width: 106px;
     height: 79px;
