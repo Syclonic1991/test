@@ -18,16 +18,16 @@
 </head>
 <body>
 <header class="header">
-    <div class="header__blur-wrap">
+    <div class="header__blur-wrap" id="blurWrap" style="opacity: 0">
         <div class="header__blur">
-            <iframe id="blurClone" style="opacity: 0" frameborder="0"></iframe>
+            <iframe id="blurClone" frameborder="0"></iframe>
         </div>
     </div>
     <div class="header__content">
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="header__logo-container col-8 col-lg-3">
-                    <div class="header__logo"></div>
+                    <a href="/" class="header__logo"></a>
                 </div>
                 <div class="header__contact d-none d-lg-flex col-lg-7 justify-content-center">
                     <div class="header__contact-address text-right">г. Москва м. Китай-город<br>Славянская пл., д. 2/5/4 c3</div>
@@ -353,27 +353,48 @@
         </div>
     </section>
     <section class="review">
-        <div class="review__container">
-            <div class="review__content">
-                <div class="review__header">
-                    <div class="review__photo">
-                        <img src="/assets/images/reviewPhoto.png" alt="">
+        <div class="review__container sliderContainer">
+            <div class="review__content sliderContent">
+                <div class="review__slide">
+                    <div class="review__header">
+                        <div class="review__photo">
+                            <img src="/assets/images/reviewPhoto.png" alt="">
+                        </div>
+                        <div class="review__author">
+                            <div class="review__name">Лилия З.</div>
+                            <div class="review__date">13 февраля 2017</div>
+                        </div>
                     </div>
-                    <div class="review__author">
-                        <div class="review__name">Лилия З.</div>
-                        <div class="review__date">13 февраля 2017</div>
-                    </div>
+                    <div class="review__text paragraph-3 reviewText">Делала здесь медкнижку, когда устроилась на работу в кафе.Не думала, что официантам тоже требуются медкнижки, мне надо было сделать ее как можно скорее. В этом медицинском центре мне ее сделали всего за 2 дня. Я быстро прошла все анализы, их результаты были готовы в короткие сроки. На работе книжку у меня приняли без проблем. Обошлась она не очень дорого, так что я удачно сюда обратилась.</div>
                 </div>
-                <div class="review__text paragraph-3">Делала здесь медкнижку, когда устроилась на работу в кафе.Не думала, что официантам тоже требуются медкнижки, мне надо было сделать ее как можно скорее. В этом медицинском центре мне ее сделали всего за 2 дня. Я быстро прошла все анализы, их результаты были готовы в короткие сроки. На работе книжку у меня приняли без проблем. Обошлась она не очень дорого, так что я удачно сюда обратилась.</div>
+                <div class="review__slide">
+                    <div class="review__header">
+                        <div class="review__photo">
+                            <img src="/assets/images/reviewPhoto.png" alt="">
+                        </div>
+                        <div class="review__author">
+                            <div class="review__name">Лилия З.</div>
+                            <div class="review__date">13 февраля 2017</div>
+                        </div>
+                    </div>
+                    <div class="review__text paragraph-3 reviewText">Делала здесь медкнижку, когда устроилась на работу в кафе.Не думала, что официантам тоже требуются медкнижки, мне надо было сделать ее как можно скорее. В этом медицинском центре мне ее сделали всего за 2 дня. Я быстро прошла все анализы, их результаты были готовы в короткие сроки. На работе книжку у меня приняли без проблем. Обошлась она не очень дорого, так что я удачно сюда обратилась.</div>
+                </div>
+                <div class="review__slide">
+                    <div class="review__header">
+                        <div class="review__photo">
+                            <img src="/assets/images/reviewPhoto.png" alt="">
+                        </div>
+                        <div class="review__author">
+                            <div class="review__name">Лилия З.</div>
+                            <div class="review__date">13 февраля 2017</div>
+                        </div>
+                    </div>
+                    <div class="review__text paragraph-3 reviewText">Делала здесь медкнижку, когда устроилась на работу в кафе.Не думала, что официантам тоже требуются медкнижки, мне надо было сделать ее как можно скорее. В этом медицинском центре мне ее сделали всего за 2 дня. Я быстро прошла все анализы, их результаты были готовы в короткие сроки. На работе книжку у меня приняли без проблем. Обошлась она не очень дорого, так что я удачно сюда обратилась.</div>
+                </div>
             </div>
             <div class="review__controls">
-                <div class="review__prev"></div>
-                <div class="review__next"></div>
-            </div>
-            <div class="review__pagination">
-                <div class="review__bullet review__bullet--active"></div>
-                <div class="review__bullet"></div>
-                <div class="review__bullet"></div>
+                <div class="review__prev sliderPrevArrow"></div>
+                <div class="review__next sliderNextArrow"></div>
             </div>
         </div>
     </section>
