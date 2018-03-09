@@ -11,6 +11,7 @@
   width: 100%;
   height: 100%;
   overflow: hidden;
+  transition: opacity 400ms linear;
 }
 
 .header__blur {
@@ -25,7 +26,6 @@
     top: 0;
     width: 100%;
     height: 100%;
-    transition: opacity 400ms linear;
   }
 }
 
@@ -58,7 +58,7 @@
 }
 
 .header__contact {
-  margin-top: 2px;
+  margin-top: 3px;
   color: $whiteColor;
   font-family: $body-font-1;
   text-shadow: 0 3px 2px rgba(241, 241, 241, 0.43);
@@ -91,6 +91,7 @@
   margin-top: -10px;
   margin-right: 23px;
   cursor: pointer;
+
   @include media-breakpoint-down(sm) {
     margin-top: -5px;
     margin-right: -5px;
@@ -106,4 +107,7 @@
     box-shadow: 0 3px 2px rgba(210, 210, 210, 0.53);
   }
 
+  &:hover > div {
+    background-color: $secondaryColor-1;
+  }
 }

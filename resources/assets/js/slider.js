@@ -1,6 +1,5 @@
 import Ellipsis from 'ellipsis.js';
 
-console.log(Ellipsis);
 const sliderEllipsis = Ellipsis({
   debounce: 100,
   responsive: true,
@@ -8,5 +7,4 @@ const sliderEllipsis = Ellipsis({
   break_word: true,
 });
 
-sliderEllipsis.add($('.reviewText')[0]);
-console.log(sliderEllipsis);
+sliderEllipsis.add(document.querySelectorAll('.reviewText'));

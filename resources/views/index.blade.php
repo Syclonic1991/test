@@ -18,9 +18,9 @@
 </head>
 <body>
 <header class="header">
-    <div class="header__blur-wrap">
+    <div class="header__blur-wrap" id="blurWrap" style="opacity: 0">
         <div class="header__blur">
-            <iframe id="blurClone" style="opacity: 0" frameborder="0"></iframe>
+            <iframe id="blurClone" frameborder="0"></iframe>
         </div>
     </div>
     <div class="header__content">
