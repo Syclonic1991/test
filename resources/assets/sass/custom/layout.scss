@@ -2,6 +2,7 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
+  min-width: 320px;
 }
 .pageWrap {
   min-height: 100%;
@@ -19,6 +20,10 @@ html, body {
 }
 .posRel {
   position: relative;
+}
+
+.container-fluid {
+  max-width: 1170px;
 }
 
 //typography
@@ -126,7 +131,7 @@ html, body {
   border-radius: 2px;
   font-family: $body-font-1;
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 400;
   cursor: pointer;
   border: 0;
   text-align: center;
@@ -170,7 +175,7 @@ html, body {
   color: $secondaryColor-1;
   font-family: $body-font-1;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 22px;
   padding-right: 22px;
   position: relative;
@@ -230,14 +235,15 @@ html, body {
   background-color: $secondaryColor-1;
   cursor: pointer;
   position: relative;
+  opacity: .5;
   &:after {
     position: absolute;
-    top: 0;
+    top: -2px;
     bottom: 0;
     left: 0;
     right: 0;
     margin: auto;
-    background-image: url('/assets/images/arrowToTopN.svg');
+    background-image: url('/assets/images/arrowToTop.svg');
     background-position: center;
     background-repeat: no-repeat;
     width: 26px;
@@ -246,6 +252,7 @@ html, body {
   }
   &:hover {
     background-color: $primaryColor;
+    opacity: 1;
     &:after {
       opacity: 1;
       background-image: url('/assets/images/arrowToTop.svg');
@@ -254,6 +261,7 @@ html, body {
   //delete after
   &--hover {
     background-color: $primaryColor;
+    opacity: 1;
     &:after {
       background-image: url('/assets/images/arrowToTop.svg');
     }
@@ -373,7 +381,7 @@ input[type=checkbox]:checked + label:after {
   align-items: center;
   justify-content: center;
   min-width: 40px;
-  font-weight: 300;
+  font-weight: 400;
   cursor: pointer;
   &:hover {
     background-color: $primaryColor;
@@ -430,7 +438,7 @@ input[type=checkbox]:checked + label:after {
     font-weight: 400;
     line-height: 70px;
     position: absolute;
-    top: 9px;
+    top: 8px;
     left: 13px;
     line-height: 16px;
     font-weight: 300;
@@ -460,7 +468,7 @@ input[type=checkbox]:checked + label:after {
   font-size: 12px;
   font-weight: 400;
   position: absolute;
-  top: 9px;
+  top: 7px;
   right: 13px;
 }
 

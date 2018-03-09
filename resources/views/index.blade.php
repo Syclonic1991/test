@@ -100,7 +100,7 @@
     </section>
     <section>
         <div class="serviceWrap">
-            <div class="container posRel">
+            <div class="posRel container-fluid">
                 <div class="advantagesImageBack"><img src="/assets/images/a-image.svg"></div>
                 <div class="serviceContainer">
                     <div class="row">
@@ -180,7 +180,7 @@
             <div class="blockPhoto__overlay"></div>
         </div>
         <div class="blockPhoto__content-wrap">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="blockPhoto__content">
                     <h2 class="title-2">Мы ответим <br>на все вопросы</h2>
                     <p class="paragraph-2">Если вы хотите записаться на прием или выяснить интересующие вас вопросы, просто нажмите на кнопку ниже и оставьте свои контактные данные. Наш менеджер свяжется с вами, и окажет помощь в течении одного часа.</p>
@@ -191,7 +191,7 @@
     </section>
     <section>
         <div class="confidenceWrap">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="confidenceContainer">
                     <div class="confidenceBack">
                         <img src="/assets/images/confidenceBack.svg">
@@ -225,7 +225,7 @@
     </section>
     <section>
         <div class="promotionsAndOffers">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">
                         <div class="title-2 blackColor">Акции и <br> спецпредложения </div>
@@ -263,7 +263,7 @@
     </section>
     <section>
         <div class="advantagesWrap">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="advantagesImageBack">
                     <img src="/assets/images/a-image.svg">
                 </div>
@@ -340,7 +340,7 @@
             <div class="blockPhoto__overlay"></div>
         </div>
         <div class="blockPhoto__content-wrap">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="blockPhoto__content">
                     <h2 class="title-2">Отзывы клиентов</h2>
                     <p class="paragraph-2">Мы ценим мнение наших пациентов, и стараемся прислушаться к каждому голосу, чтобы посещение нашего центра становилось еще более комфортным и приятным для них.</p>
@@ -376,7 +376,7 @@
     <div class="pageBuffer"></div>
 </div>
 <footer class="footerWrap">
-    <div class="container">
+    <div class="container-fluid">
         <div class="footerContainer">
             <div class="footerInfoBlock">
                 <div class="footerTelephone">+7 (495) 419-09-20</div>
