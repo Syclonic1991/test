@@ -25,7 +25,7 @@
                 <div class="header__logo-container col-8 col-lg-3">
                     <div class="header__logo"></div>
                 </div>
-                <div class="header__contact d-none d-lg-flex col-lg-7">
+                <div class="header__contact d-none d-lg-flex col-lg-7 justify-content-center">
                     <div class="header__contact-address text-right">г. Москва м. Китай-город<br>Славянская пл., д. 2/5/4 c3</div>
                     <div class="header__contact-phone">+7 (495) 419-09-20</div>
                 </div>
