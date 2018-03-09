@@ -4,14 +4,13 @@ $(function () {
   var $head = $('head');
   var $cloneBody = $($clone[0].contentDocument).find('body');
   var $cloneHead = $($clone[0].contentDocument).find('head');
-  var $cloneWindow = $($clone[0].contentWindow);
 
   $cloneBody.html($content.html());
   $cloneHead.html($head.html());
   $cloneBody.css({
     'overflow': 'hidden',
     'transform': `translateY(-${window.scrollY}px)`,
-    'padding-top': '10px',
+    'padding-top': '20px',
   });
   $clone.css('opacity', 1);
 
