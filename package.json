@@ -18,5 +18,8 @@
         "lodash": "^4.17.4",
         "popper.js": "^1.12",
         "style-loader": "^0.20.2"
+    },
+    "dependencies": {
+        "ellipsis.js": "^0.1.2"
     }
 }
