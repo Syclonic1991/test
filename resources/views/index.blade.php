@@ -85,6 +85,7 @@
                     <div class="bannerImage"><img data-src="/assets/images/banner/img-20.jpg" class="image"></div>
                 </div>
                 <div class="bannerBlockLine bannerBlockLine-4">
+                <div class="bannerImage"><img data-src="/assets/images/banner/img-1.jpg" class="image"></div>
                     <div class="bannerImage"><img data-src="/assets/images/banner/img-21.jpg" class="image"></div>
                     <div class="bannerImage"><img data-src="/assets/images/banner/img-22.jpg" class="image"></div>
                     <div class="bannerImage"><img data-src="/assets/images/banner/img-23.jpg" class="image"></div>
