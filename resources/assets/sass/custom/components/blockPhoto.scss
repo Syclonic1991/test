@@ -43,7 +43,8 @@
   position: relative;
   width: 325px;
   height: 420px;
-  background-color: rgba(#abe2ff, 0.8);
+  background-color: rgba(#b8d5ff, 0.89);
+  mix-blend-mode: hard-light;
   @media (max-width: #{$breakpointTablet}) {
     width: 248px;
     height: 340px;
