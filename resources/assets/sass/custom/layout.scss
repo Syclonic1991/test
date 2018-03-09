@@ -62,6 +62,27 @@ html, body {
   }
 }
 
+.title-1-mob {
+  font: $title-1-mobile;
+}
+
+.title-2-mob {
+  font: $title-2-mobile;
+}
+
+.title-3-mob {
+  font: $title-3-mobile;
+}
+
+.title-4-mob {
+  font: $title-4-mobile;
+}
+
+.title-5-mob {
+  font: $title-5-mobile;
+}
+
+
 .paragraph-1 {
   font: $paragraph-1;
 }
@@ -105,7 +126,7 @@ html, body {
   border-radius: 2px;
   font-family: $body-font-1;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 300;
   cursor: pointer;
   border: 0;
   text-align: center;
@@ -125,18 +146,28 @@ html, body {
     color: $primaryColor;
     &:hover {
       color: $whiteColor;
-      background-color: $primaryColor;
+      border: 1px solid $secondaryColor-1;
+      background-color: $secondaryColor-1;
+      background-image: linear-gradient(to top, $secondaryColor-1 0%, $secondaryColor-1 100%);
     }
   }
   &.disabled,
   &:disabled {
     background-color: $disabledColor;
     cursor: default;
+    background-image: none;
   }
+  //delete after
+  &--hover-1 {
+    color: $whiteColor;
+    background-color: $secondaryColor-1;
+    background-image: linear-gradient(to top, $secondaryColor-1 0%, $secondaryColor-1 100%);
+  }
+  //
 }
 
 .flatButton {
-  color: $secondaryColor-2;
+  color: $secondaryColor-1;
   font-family: $body-font-1;
   font-size: 14px;
   font-weight: 400;
@@ -153,7 +184,7 @@ html, body {
     border-radius: 50%;
     overflow: hidden;
     background-image: url('/assets/images/rounded.svg');
-    background-color: $primaryColor;
+    background-color: $secondaryColor-1;
     background-position: center;
     top: 0;
     bottom: 0;
@@ -162,10 +193,10 @@ html, body {
     right: 0;
   }
   &:hover {
-    color: $secondaryColor-2;
+    color: #0878cf;
     &:after {
       background-image: url('/assets/images/rounded.svg');
-      background-color: $secondaryColor-2;
+      background-color: #0878cf;
       background-position: center;
     }
   }
@@ -179,6 +210,16 @@ html, body {
       background-position: center;
     }
   }
+  //delete after
+  &--hover {
+    color: #0878cf;
+    &:after {
+      background-image: url('/assets/images/rounded.svg');
+      background-color: #0878cf;
+      background-position: center;
+    }
+  }
+  //
 }
 
 .floatButton {
@@ -186,14 +227,38 @@ html, body {
   height: 52px;
   border-radius: 50%;
   overflow: hidden;
-  background-image: url('/assets/images/arrowToTop.svg');
-  background-color: $primaryColor;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: $secondaryColor-1;
   cursor: pointer;
-  &:hover {
-    background-color: $secondaryColor-1;
+  position: relative;
+  &:after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-image: url('/assets/images/arrowToTop.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 13px;
+    content: '';
+    opacity: .8;
   }
+  &:hover {
+    background-color: $primaryColor;
+    &:after {
+      opacity: 1;
+    }
+  }
+  //delete after
+  &--hover {
+    background-color: $primaryColor;
+    &:after {
+      opacity: 1;
+    }
+  }
+  //
 }
 
 //link
@@ -213,7 +278,7 @@ a {
 .projectLink {
   color: $secondaryColor-1;
   font-family: $body-font-1;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   cursor: pointer;
   text-decoration: none;
@@ -246,7 +311,7 @@ input[type=checkbox]+label:before {
   content: '';
   text-align: center;
   display: inline-block;
-  top: 3px;
+  top: 4px;
   position: absolute;
   left: 0;
   width: 18px;
@@ -283,8 +348,10 @@ input[type=checkbox]:checked + label:after {
     }
   }
   &.disabled {
-    path {
-      fill: $disabledColor;
+    svg {
+      path {
+        fill: $disabledColor;
+      }
     }
   }
 }
@@ -306,6 +373,7 @@ input[type=checkbox]:checked + label:after {
   align-items: center;
   justify-content: center;
   min-width: 40px;
+  font-weight: 300;
   cursor: pointer;
   &:hover {
     background-color: $primaryColor;
@@ -366,11 +434,14 @@ input[type=checkbox]:checked + label:after {
     left: 13px;
     line-height: 16px;
   }
-  &--active {
+  &--active,
+  &:focus {
     border: 1px solid $secondaryColor-1;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
   }
   &--withError {
     border: 1px solid $fieldColorError;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
     .projectFormCounter {
       color: $fieldColorError;
     }
@@ -394,6 +465,15 @@ input[type=checkbox]:checked + label:after {
 
 .projectBtn-group {
   width: 100%;
+  button {
+    outline: none;
+    box-shadow: none;
+  }
+  &:hover {
+    .dropDownBtn {
+      color: #3ec4f0;
+    }
+  }
 }
 
 .dropDownBtn {
@@ -406,9 +486,9 @@ input[type=checkbox]:checked + label:after {
   text-align: left;
   border-right: 0;
   cursor: pointer;
-  &:hover {
-    color: $primaryColor;
-  }
+  font-weight: 300;
+  padding-left: 13px;
+  line-height: 36px;
 }
 
 .dropDownArrow {
@@ -419,20 +499,26 @@ input[type=checkbox]:checked + label:after {
   border-left: 0;
   box-shadow: none;
   padding: 17px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  pointer-events: none;
 }
 
 .projectBtn-group {
   .dropdown-menu {
-    top: -2px;
-    left: 0;
+    top: -43px !important;
+    left: 0 !important;
     right: 0;
     box-shadow: 0 8px 20px rgba(43, 34, 34, 0.3);
     border-radius: 2px;
     background-color: #ffffff;
     padding: 0;
+    border: 0;
   }
   .dropdown-item {
-    padding: 9px 16px;
+    padding: 9px 14px;
     min-height: 40px;
     color: #1a1a1a;
     font-family: $body-font-1;
