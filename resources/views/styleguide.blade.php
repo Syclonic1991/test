@@ -164,19 +164,17 @@
                 <div class="col-12">
                     <div style="font-size: 16px; color: #3ec4f0;margin: 10px 0;">Alphabetical sorting</div>
                 </div>
-                <div class="col-12">
-                    <div class="alphabeticalWrap">
-                        <div class="alphabeticalBlock alphabeticalBlock--active">Все</div>
-                        <div class="alphabeticalBlock">А</div>
-                        <div class="alphabeticalBlock">Б</div>
-                        <div class="alphabeticalBlock">В</div>
-                        <div class="alphabeticalBlock">Г</div>
-                        <div class="alphabeticalBlock">Д</div>
-                        <div class="alphabeticalBlock">Е</div>
-                        <div class="alphabeticalBlock">Ж</div>
-                        <div class="alphabeticalBlock">З</div>
-                        <div class="alphabeticalBlock">И</div>
-                    </div>
+                <div class="alphabeticalWrap">
+                    <div class="alphabeticalBlock alphabeticalBlock--active">Все</div>
+                    <div class="alphabeticalBlock">А</div>
+                    <div class="alphabeticalBlock">Б</div>
+                    <div class="alphabeticalBlock">В</div>
+                    <div class="alphabeticalBlock">Г</div>
+                    <div class="alphabeticalBlock">Д</div>
+                    <div class="alphabeticalBlock">Е</div>
+                    <div class="alphabeticalBlock">Ж</div>
+                    <div class="alphabeticalBlock">З</div>
+                    <div class="alphabeticalBlock">И</div>
                 </div>
             </div>
         </div>
