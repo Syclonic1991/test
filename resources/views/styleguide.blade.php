@@ -123,16 +123,16 @@
                     <br>
                 </div>
                 <div class="alphabeticalWrap">
-                    <div class="alphabeticalBlock alphabeticalBlock--active">Ð’ÑÐµ</div>
-                    <div class="alphabeticalBlock">Ð</div>
-                    <div class="alphabeticalBlock">Ð‘</div>
-                    <div class="alphabeticalBlock">Ð’</div>
-                    <div class="alphabeticalBlock">Ð“</div>
-                    <div class="alphabeticalBlock">Ð”</div>
-                    <div class="alphabeticalBlock">Ð•</div>
-                    <div class="alphabeticalBlock">Ð–</div>
-                    <div class="alphabeticalBlock">Ð—</div>
-                    <div class="alphabeticalBlock">Ð˜</div>
+                    <div class="alphabeticalBlock alphabeticalBlock--active">Все</div>
+                    <div class="alphabeticalBlock">А</div>
+                    <div class="alphabeticalBlock">Б</div>
+                    <div class="alphabeticalBlock">В</div>
+                    <div class="alphabeticalBlock">Г</div>
+                    <div class="alphabeticalBlock">Д</div>
+                    <div class="alphabeticalBlock">Е</div>
+                    <div class="alphabeticalBlock">Ж</div>
+                    <div class="alphabeticalBlock">З</div>
+                    <div class="alphabeticalBlock">И</div>
                 </div>
             </div>
         </div>
