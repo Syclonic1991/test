@@ -20,14 +20,16 @@
         <iframe id="blurClone" style="opacity: 0" frameborder="0"></iframe>
     </div>
     <div class="header__content">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row align-items-center">
-                <div class="header__logo col-8 col-lg-3"></div>
-                <div class="header__contact d-none d-lg-flex col-lg-8">
+                <div class="header__logo-container col-8 col-lg-3">
+                    <div class="header__logo"></div>
+                </div>
+                <div class="header__contact d-none d-lg-flex col-lg-7">
                     <div class="header__contact-address text-right">г. Москва м. Китай-город<br>Славянская пл., д. 2/5/4 c3</div>
                     <div class="header__contact-phone">+7 (495) 419-09-20</div>
                 </div>
-                <div class="header__menu col-4 col-lg-1">
+                <div class="header__menu col-4 col-lg-2">
                     <div class="header__menu-button ml-auto">
                         <div class="top"></div>
                         <div class="middle"></div>
