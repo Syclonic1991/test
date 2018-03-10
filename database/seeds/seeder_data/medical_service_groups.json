@@ -1,0 +1,10 @@
+[
+  {"name":"Профосмотр", "description":"Тестовое описание", "slug":"This is slug"},
+  {"name":"Медицинская книжка", "description":"Тестовое описание", "slug":"This is slug"},
+  {"name":"Флюорография", "description":"Тестовое описание", "slug":"This is slug"},
+  {"name":"Ультразвуковое исследование", "description":"Тестовое описание", "slug":"This is slug"},
+  {"name":"Психиатрическое освидетельствование", "description":"Тестовое описание", "slug":"This is slug"},
+  {"name":"Медицинские справки", "description":"Тестовое описание", "slug":"This is slug"},
+  {"name":"Паспорт здоровья", "description":"Тестовое описание", "slug":"This is slug"},
+  {"name":"Гинекология", "description":"Тестовое описание", "slug":"This is slug"}
+]
