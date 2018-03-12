@@ -89,7 +89,7 @@ if (countImagesInViewport > 30) {
           if (imagesLoaded >= countImagesInViewport) {
             $('.bannerContainer').trigger('loaded');
           }
-        }, randomBetween(500, 3500))
+        }, randomBetween(500, 3100))
       // } else {
       //   elm.parentElement.classList.add('ready');
       //   imagesLoaded += 1;
