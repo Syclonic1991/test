@@ -1,6 +1,6 @@
 require('./bootstrap');
-require('slick-carousel');
+// require('slick-carousel');
 
 require('./header');
 require('./banner');
-require('./slider');
+// require('./slider');

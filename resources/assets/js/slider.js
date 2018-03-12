@@ -1,4 +1,4 @@
-import Ellipsis from 'ellipsis.js';
+// import Ellipsis from 'ellipsis.js';
 
 const sliderEllipsis = Ellipsis({
   debounce: 100,
