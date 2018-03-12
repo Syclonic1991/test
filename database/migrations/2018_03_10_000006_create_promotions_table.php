@@ -28,7 +28,6 @@ class CreatePromotionsTable extends Migration
             $table->dateTime('end_date');
             $table->enum('status', ['draft', 'active', 'not_active']);
             $table->string('name', 250);
-            $table->string('img', 250);
             $table->text('description');
             $table->unsignedInteger('created_by_user_id')->nullable();
             $table->unsignedInteger('updated_by_user_id')->nullable();
@@ -48,12 +47,12 @@ class CreatePromotionsTable extends Migration
             $table->foreign('created_by_user_id', 'promotions_fk_created_by_admin_id_idx')
                 ->references('id')->on('users')
                 ->onDelete('set null')
-                ->onUpdate('no action');
+                ->onUpdate('cascade');
 
             $table->foreign('updated_by_user_id', 'promotions_fk_updated_by_admin_id_idx')
                 ->references('id')->on('users')
                 ->onDelete('set null')
-                ->onUpdate('no action');
+                ->onUpdate('cascade');
         });
     }
 
