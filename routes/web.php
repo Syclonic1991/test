@@ -19,6 +19,10 @@ Route::get('/styleguide', function () {
     return view('styleguide');
 });
 
+Route::get('/test', function () {
+    return view('test');
+});
+
 Route::get('/welcome', function () {
     return view('welcome');
 });
@@ -29,6 +33,10 @@ Route::get('/logout', 'Auth\LoginController@logout')->name('logout');
 
 Route::post('/admin', 'Auth\LoginController@login');
 
-Route::get('/admin/dashboard', function() {
-    return view('admin.dashboard');
-})->middleware('auth');
+//Route::get('/admin/dashboard', 'PromotionsController@getData')->middleware('auth');
+
+Route::get('/admin/promotions/show', 'PromotionsController@getData')->name('getdata')->middleware('auth');
+
+Route::get('/admin/promotions', 'PromotionsController@index')->middleware('auth');
+
+
