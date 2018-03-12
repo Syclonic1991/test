@@ -1,6 +1,6 @@
 //service block begin
 .serviceWrap {
-  padding: 185px 0;
+  padding: 128px 0 185px;
   overflow: hidden;
   @media(max-width: $breakpointTablet) {
     padding: 35px 0 23px;
@@ -27,7 +27,7 @@
       max-width: 510px;
     }
     @media(min-width: $breakpointLarge) {
-      margin-left: 7.6%;
+      margin-left: 8.7%;
       max-width: 60%;
     }
     @media(max-width: $breakpointMobile) {
