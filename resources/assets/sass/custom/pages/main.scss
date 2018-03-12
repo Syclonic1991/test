@@ -3,7 +3,7 @@
   padding: 128px 0 185px;
   overflow: hidden;
   @media(max-width: $breakpointTablet) {
-    padding: 35px 0 23px;
+    padding: 25px 0 23px;
   }
   .container-fluid {
     padding: 0 47px;
@@ -21,6 +21,9 @@
   }
   p {
     margin-bottom: 22px;
+    @media(max-width: $breakpointTablet) {
+      margin-bottom: 22px;
+    }
   }
   .paragraph-2 {
     width: 100%;
@@ -38,7 +41,7 @@
     }
     @media(max-width: $breakpointMobile) {
       margin-left: 0;
-      max-width: 80%;
+      max-width: 90%;
       margin-top: 19px;
     }
   }
@@ -83,7 +86,7 @@
   @media(max-width: $breakpointTablet) {
     max-width: 90px;
     max-height: 90px;
-    margin: 0 auto 24px;
+    margin: 0 auto 25px;
     &--1 {
       img {
         max-width: 42px;
@@ -135,6 +138,12 @@
   color: #000000;
   font-size: 14px;
   font-weight: 400;
+  @media(max-width: $breakpointTablet) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 19px;
+  }
 }
 //service block end
 
@@ -371,8 +380,8 @@
     right: -253px;
   }
   @media(max-width: $breakpointMobile) {
-    top: -27px;
-    right: -175px;
+    top: -8px;
+    right: -160px;
     img {
       max-height: 303px;
     }
@@ -442,7 +451,7 @@
 .bannerBlockLine-1 {
   margin-top: -100px;
   @media(max-width: $breakpointTablet) {
-    margin-top: -27px;
+    margin-top: -14px;
   }
 }
 .bannerImage {
@@ -474,7 +483,7 @@
   @include flexCenter();
   top: 87px;
   @media(max-width: $breakpointTablet) {
-    top: 49px;
+    top: 91px;
     svg {
       max-width: 237px;
     }
