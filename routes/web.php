@@ -23,11 +23,10 @@ Route::get('/welcome', function () {
     return view('welcome');
 });
 
-//Auth::routes();
-
-//Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/admin', 'Auth\LoginController@showLoginForm')->name('login');
+
 Route::get('/logout', 'Auth\LoginController@logout')->name('logout');
+
 Route::post('/admin', 'Auth\LoginController@login');
 
 Route::get('/admin/dashboard', function() {
