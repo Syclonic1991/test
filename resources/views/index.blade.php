@@ -1327,7 +1327,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="footerCopyright">©2017 biospets.ru</div>
+                    <div class="footerCopyright">©2017&nbsp;biospets.ru</div>
                 </div>
             </div>
             <div></div>
