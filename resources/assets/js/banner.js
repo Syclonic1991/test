@@ -81,7 +81,7 @@ if (countImagesInViewport > 30) {
     const imageSource = sources[lastIndex++]
     elm.src = imageSource
     elm.onload = () => {
-      if (Date.now() - loadTimeStart < 100) {
+      // if (Date.now() - loadTimeStart < 0) {
         console.log('MANUAL TIMEOUT')
         setTimeout(() => {
           elm.parentElement.classList.add('ready');
@@ -89,14 +89,14 @@ if (countImagesInViewport > 30) {
           if (imagesLoaded >= countImagesInViewport) {
             $('.bannerContainer').trigger('loaded');
           }
-        }, randomBetween(500, 2000))
-      } else {
-        elm.parentElement.classList.add('ready');
-        imagesLoaded += 1;
-        if (imagesLoaded >= countImagesInViewport) {
-          $('.bannerContainer').trigger('loaded');
-        }
-      }
+        }, randomBetween(500, 3600))
+      // } else {
+      //   elm.parentElement.classList.add('ready');
+      //   imagesLoaded += 1;
+      //   if (imagesLoaded >= countImagesInViewport) {
+      //     $('.bannerContainer').trigger('loaded');
+      //   }
+      // }
      
     }
     
