@@ -5,15 +5,16 @@
   font-size: 14px;
   font-weight: 400;
   color: #8f98a1;
+  overflow: hidden;
 }
 
 .footerContainer {
   display: flex;
   align-items: stretch;
   justify-content: space-between;
-  padding: 49px 0 0;
+  padding: 49px 32px 0;
   @media(max-width: $breakpointDesktop) {
-    padding: 39px 0 46px;
+    padding: 39px 15px 46px;
   }
 }
 
@@ -115,6 +116,7 @@
 .footerLinkContainerLink {
   color: #444b53;
   line-height: 30px;
+  font-weight: 300;
   &:hover {
     color: $secondaryColor-2;
   }
