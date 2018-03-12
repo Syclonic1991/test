@@ -445,6 +445,11 @@
     object-fit: cover;
     opacity: 0;
     transition: all 900ms ease;
+    &:after {
+      @include positionAbsCenter();
+      content: '';
+      background: rgba(0,0,0,.1);
+    }
   }
   &.ready {
     img{
