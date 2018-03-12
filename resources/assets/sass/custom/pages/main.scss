@@ -1,6 +1,6 @@
 //service block begin
 .serviceWrap {
-  padding: 185px 0;
+  padding: 128px 0 185px;
   overflow: hidden;
   @media(max-width: $breakpointTablet) {
     padding: 35px 0 23px;
@@ -23,12 +23,12 @@
       max-width: 510px;
     }
     @media(min-width: $breakpointDesktop) {
-      margin-left: 85px;
+      margin-left: 7.6%;
       max-width: 510px;
     }
     @media(min-width: $breakpointLarge) {
-      margin-left: 87px;
-      max-width: 680px;
+      margin-left: 8.7%;
+      max-width: 60%;
     }
     @media(max-width: $breakpointMobile) {
       margin-left: 0;
@@ -66,12 +66,14 @@
 .serviceBlockImage {
   height: 100px;
   width: 100px;
-  box-shadow: 0 10px 20px rgba(43, 34, 34, 0.2);
+  box-shadow: 0 5px 15px rgba(43, 34, 34, 0.2);
   background-color: #ffffff;
   @include flexCenter;
   border-radius: 50%;
   overflow: hidden;
   margin: 0 auto 16px;
+  cursor: pointer;
+  fill: rgba(43, 34, 34, 0.2);
   @media(max-width: $breakpointTablet) {
     max-width: 90px;
     max-height: 90px;
@@ -116,6 +118,11 @@
         max-width: 50px;
       }
     }
+  }
+  &:hover {
+    -webkit-animation: pulse-shadow 2s infinite;
+    animation: pulse-shadow 2s infinite;
+    color: rgba(43, 34, 34, 0.2);
   }
 }
 .serviceBlockText {
@@ -419,6 +426,12 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  position: relative;
+  &:after {
+    @include positionAbsCenter();
+    content: '';
+    background: rgba(0,0,0,.1);
+  }
 }
 .bannerBlockLine-1 {
   margin-top: -100px;
@@ -437,7 +450,7 @@
     height: 100%;
     object-fit: cover;
     opacity: 0;
-    transition: all 900ms ease;
+    transition: all 500ms ease;
   }
   &.ready {
     img{
@@ -460,4 +473,28 @@
       max-width: 237px;
     }
   } 
+}
+
+@-webkit-keyframes pulse-shadow {
+  0% {
+    box-shadow: 0 5px 15px rgba(43, 34, 34, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 5px 25px rgba(43, 34, 34, 0.2);
+  }
+  100% {
+    box-shadow: 0 5px 15px rgba(43, 34, 34, 0.2);
+  }
+}
+
+@keyframes pulse-shadow {
+  0% {
+    box-shadow: 0 5px 15px rgba(43, 34, 34, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 5px 25px rgba(43, 34, 34, 0.2);
+  }
+  100% {
+    box-shadow: 0 5px 15px rgba(43, 34, 34, 0.2);
+  }
 }

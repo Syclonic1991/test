@@ -878,6 +878,11 @@
                     <div class="bannerImage"><img data-src="/assets/images/banner/img-23.jpg" class="image"></div>
                     <div class="bannerImage"><img data-src="/assets/images/banner/img-24.jpg" class="image"></div>
                     <div class="bannerImage"><img data-src="/assets/images/banner/img-25.jpg" class="image"></div>
+                    <div class="bannerImage"><img data-src="/assets/images/banner/img-21.jpg" class="image"></div>
+                    <div class="bannerImage"><img data-src="/assets/images/banner/img-22.jpg" class="image"></div>
+                    <div class="bannerImage"><img data-src="/assets/images/banner/img-23.jpg" class="image"></div>
+                    <div class="bannerImage"><img data-src="/assets/images/banner/img-24.jpg" class="image"></div>
+                    <div class="bannerImage"><img data-src="/assets/images/banner/img-25.jpg" class="image"></div>
                     <div class="bannerImage"><img data-src="/assets/images/banner/img-26.jpg" class="image"></div>
                     <div class="bannerImage"><img data-src="/assets/images/banner/img-27.jpg" class="image"></div>
                     <div class="bannerImage"><img data-src="/assets/images/banner/img-28.jpg" class="image"></div>
@@ -885,6 +890,11 @@
                     <div class="bannerImage"><img data-src="/assets/images/banner/img-30.jpg" class="image"></div>
                 </div>
                 <div class="bannerBlockLine bannerBlockLine-2">
+                    <div class="bannerImage"><img data-src="/assets/images/banner/img-1.jpg" class="image"></div>
+                    <div class="bannerImage"><img data-src="/assets/images/banner/img-2.jpg" class="image"></div>
+                    <div class="bannerImage"><img data-src="/assets/images/banner/img-3.jpg" class="image"></div>
+                    <div class="bannerImage"><img data-src="/assets/images/banner/img-4.jpg" class="image"></div>
+                    <div class="bannerImage"><img data-src="/assets/images/banner/img-5.jpg" class="image"></div>
                     <div class="bannerImage"><img data-src="/assets/images/banner/img-1.jpg" class="image"></div>
                     <div class="bannerImage"><img data-src="/assets/images/banner/img-2.jpg" class="image"></div>
                     <div class="bannerImage"><img data-src="/assets/images/banner/img-3.jpg" class="image"></div>
@@ -902,6 +912,11 @@
                     <div class="bannerImage"><img data-src="/assets/images/banner/img-13.jpg" class="image"></div>
                     <div class="bannerImage"><img data-src="/assets/images/banner/img-14.jpg" class="image"></div>
                     <div class="bannerImage"><img data-src="/assets/images/banner/img-15.jpg" class="image"></div>
+                    <div class="bannerImage"><img data-src="/assets/images/banner/img-11.jpg" class="image"></div>
+                    <div class="bannerImage"><img data-src="/assets/images/banner/img-12.jpg" class="image"></div>
+                    <div class="bannerImage"><img data-src="/assets/images/banner/img-13.jpg" class="image"></div>
+                    <div class="bannerImage"><img data-src="/assets/images/banner/img-14.jpg" class="image"></div>
+                    <div class="bannerImage"><img data-src="/assets/images/banner/img-15.jpg" class="image"></div>
                     <div class="bannerImage"><img data-src="/assets/images/banner/img-16.jpg" class="image"></div>
                     <div class="bannerImage"><img data-src="/assets/images/banner/img-17.jpg" class="image"></div>
                     <div class="bannerImage"><img data-src="/assets/images/banner/img-18.jpg" class="image"></div>
@@ -909,7 +924,7 @@
                     <div class="bannerImage"><img data-src="/assets/images/banner/img-20.jpg" class="image"></div>
                 </div>
                 <div class="bannerBlockLine bannerBlockLine-4">
-                <div class="bannerImage"><img data-src="/assets/images/banner/img-1.jpg" class="image"></div>
+                    <div class="bannerImage"><img data-src="/assets/images/banner/img-1.jpg" class="image"></div>
                     <div class="bannerImage"><img data-src="/assets/images/banner/img-21.jpg" class="image"></div>
                     <div class="bannerImage"><img data-src="/assets/images/banner/img-22.jpg" class="image"></div>
                     <div class="bannerImage"><img data-src="/assets/images/banner/img-23.jpg" class="image"></div>
@@ -919,6 +934,11 @@
                     <div class="bannerImage"><img data-src="/assets/images/banner/img-28.jpg" class="image"></div>
                     <div class="bannerImage"><img data-src="/assets/images/banner/img-29.jpg" class="image"></div>
                     <div class="bannerImage"><img data-src="/assets/images/banner/img-30.jpg" class="image"></div>
+                    <div class="bannerImage"><img data-src="/assets/images/banner/img-1.jpg" class="image"></div>
+                    <div class="bannerImage"><img data-src="/assets/images/banner/img-21.jpg" class="image"></div>
+                    <div class="bannerImage"><img data-src="/assets/images/banner/img-22.jpg" class="image"></div>
+                    <div class="bannerImage"><img data-src="/assets/images/banner/img-23.jpg" class="image"></div>
+                    <div class="bannerImage"><img data-src="/assets/images/banner/img-23.jpg" class="image"></div>
                 </div>
                 <div class="bannerText">
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="578" height="152" viewBox="0 0 578 152"><defs><path id="wr7aa" d="M373.38 374.94v13.12h18.83c4.14 0 6.4-2.19 6.4-6.56 0-4.38-2.26-6.56-6.4-6.56zm18.83-10.78c11.71 0 20.77 5.3 20.77 17.34 0 12.03-9.06 17.34-20.77 17.34h-29.76a3.44 3.44 0 0 1-3.44-3.51v-47.58c0-2.03 1.56-3.6 3.6-3.6h42.95c1.96 0 3.6 1.57 3.6 3.6v3.6c0 1.95-1.57 3.59-3.52 3.59h-32.26v9.22zm71.6 34.68a3.64 3.64 0 0 1-3.59-3.6v-35.38l-19.91 35.39c-1.1 1.95-3.52 3.6-5.55 3.6H422.1a3.58 3.58 0 0 1-3.6-3.6v-47.5c0-2.03 1.56-3.6 3.6-3.6h6.71c1.96 0 3.6 1.57 3.6 3.52v38.2l21.71-38.12c1.1-1.87 3.36-3.6 5.23-3.6h11.25a3.57 3.57 0 0 1 3.52 3.6v47.5c0 1.95-1.64 3.6-3.6 3.6zm30.54-27.34c0 11.72 4.6 18.2 16.32 18.2S527 383.22 527 371.5c0-11.72-4.6-18.2-16.33-18.2-11.71 0-16.32 6.48-16.32 18.2zm16.32-28.51c19.53 0 30.7 8.2 30.7 28.51 0 20.31-11.17 28.51-30.7 28.51-19.52 0-30.7-8.2-30.7-28.51 0-20.31 11.18-28.51 30.7-28.51zm62.54.86h8.51c10.63 0 21.95 5.7 21.95 16.8a3.95 3.95 0 0 1-3.9 4.2h-4.53c-2.19 0-3.99-1-5.47-4.2-1.72-3.68-4.69-6.02-9.37-6.02h-6.8c-11.25 0-14.3 4.14-14.3 16.87s3.05 16.87 14.3 16.87h7.58c4.68 0 7.65-2.34 9.37-6.01 1.48-3.2 3.28-4.22 5.47-4.22h4.53c1.01 0 3.9.7 3.9 4.22 0 11.1-11.32 16.8-21.94 16.8h-9.3c-18.67 0-28.28-8.68-28.28-27.66s9.61-27.66 28.28-27.66zm82.6 55a3.64 3.64 0 0 1-3.58-3.6v-40.31h-27.89v40.3c0 1.96-1.64 3.6-3.6 3.6h-7.18a3.58 3.58 0 0 1-3.6-3.6v-47.49c0-2.03 1.57-3.6 3.52-3.6h49.53c1.95 0 3.59 1.57 3.59 3.6v47.5c0 1.95-1.64 3.6-3.67 3.6zm70.6-51.1v3.6c0 2.03-1.64 3.59-3.6 3.59h-33.2v11.1h28.6c1.95 0 3.59 1.63 3.59 3.59v3.59c0 1.95-1.64 3.6-3.6 3.6h-28.58v11.24h33.12a3.5 3.5 0 0 1 3.51 3.52v3.67c0 1.95-1.56 3.6-3.6 3.6h-43.81a3.6 3.6 0 0 1-3.6-3.68v-47.5a3.57 3.57 0 0 1 3.6-3.51h43.97c1.96 0 3.6 1.56 3.6 3.6zm9.09 51.1a3.64 3.64 0 0 1-3.6-3.6v-47.58a3.57 3.57 0 0 1 3.6-3.51h7.18c1.96 0 3.6 1.56 3.6 3.6v40.3h25.62v-40.39a3.57 3.57 0 0 1 3.6-3.51h7.18c1.95 0 3.59 1.56 3.59 3.6v40.3h4.14c1.95 0 3.6 1.56 3.6 3.6v3.59c0 1.95-1.65 3.6-3.6 3.6z"/><path id="wr7ab" d="M262.67 422.5a45.18 45.18 0 0 0 58.23-18.67 46.02 46.02 0 0 0-4.8-52.57l3.6-6.3 1.25-2.18 10.93-19.08 1.26-2.2a3.35 3.35 0 0 1 4.59-1.24l2.18 1.27 3.64 2.12c1.6.93 2.16 3 1.23 4.62l-1.26 2.2a3.35 3.35 0 0 1-4.6 1.24l-.72-.42-10.5 18.33c-.18.32-.4.59-.66.82a55.4 55.4 0 0 1 1.86 58.05c-15.08 26.32-48.47 35.34-74.59 20.14-26.11-15.2-35.06-48.85-19.98-75.18a54.48 54.48 0 0 1 51.21-27.37c.08-.27.18-.54.33-.8l10.5-18.33-.73-.43a3.4 3.4 0 0 1-1.23-4.62l1.26-2.2a3.35 3.35 0 0 1 4.6-1.24l3.63 2.11 2.18 1.27c1.61.94 2.16 3.01 1.23 4.63l-1.26 2.2-10.87 18.98-1.3 2.28-3.54 6.18a45.24 45.24 0 0 0-48 22 45.95 45.95 0 0 0 13.06 60.17s6.3 3.92 7.27 4.23z"/><path id="wr7ac" d="M307.78 351.72a38.39 38.39 0 0 1 7 47.48c-8.09 13.82-23.5 20.83-38.59 19.07a40.77 40.77 0 0 1-18.57-7.53 40.56 40.56 0 0 1-12.5-14.94 32.55 32.55 0 0 1-2.61-9.16h.05c-.03-.23-.07-.46-.07-.7a4.9 4.9 0 0 1 4.92-4.87h42.18a4.9 4.9 0 0 1 4.92 4.87 4.9 4.9 0 0 1-4.92 4.88H253.2A29.42 29.42 0 0 0 265.76 405l-.17.24c.1.06.19.08.3.14 14.28 8.15 32.56 3.32 40.8-10.8a29.23 29.23 0 0 0-3.75-34.6l-4.37 7.49a3.41 3.41 0 0 1-4.63 1.22l-9.91-5.65a3.33 3.33 0 0 1-1.24-4.57l17.37-29.73a3.41 3.41 0 0 1 4.63-1.23l9.91 5.66a3.33 3.33 0 0 1 1.24 4.57zm9.33-44.66a4.6 4.6 0 0 1 4.58 4.63 4.6 4.6 0 0 1-4.58 4.62 4.6 4.6 0 0 1-4.58-4.62 4.6 4.6 0 0 1 4.58-4.63zM337.19 294c5.09 0 9.22 4.15 9.22 9.27a9.24 9.24 0 0 1-9.22 9.26 9.24 9.24 0 0 1-9.22-9.26 9.24 9.24 0 0 1 9.22-9.27z"/><path id="wr7ad" d="M359 416.15h6.12c1.59.03 2.76.43 3.51 1.2.79.8 1.18 1.85 1.18 3.14.02.67-.14 1.3-.46 1.91-.16.3-.4.57-.72.83-.33.29-.7.53-1.15.74v.05c.86.23 1.51.69 1.95 1.39.42.7.63 1.48.63 2.34a4.64 4.64 0 0 1-1.29 3.33 4.18 4.18 0 0 1-3.11 1.27h-6.67zm6.08 13.88c.88-.01 1.53-.26 1.95-.74.42-.48.62-1.04.62-1.7 0-.66-.2-1.23-.62-1.7-.4-.46-1.06-.7-1.95-.73h-3.69v4.87zm-.23-7.06c.88 0 1.52-.23 1.94-.7.41-.43.62-.97.62-1.62a2.3 2.3 0 0 0-.62-1.66c-.4-.4-1.05-.63-1.94-.66h-3.46v4.64zm18.43 8.32c-1 .8-2.2 1.2-3.57 1.2-.62 0-1.19-.08-1.71-.24-.52-.16-.99-.4-1.4-.7a5.24 5.24 0 0 1-1.85-1.98l-.31-.7a4.93 4.93 0 0 1-.22-.86c-.1-.62-.16-1.88-.16-3.76 0-.96.01-1.75.04-2.37.02-.62.06-1.1.12-1.41.12-.65.3-1.17.53-1.54a5.6 5.6 0 0 1 1.85-2.02c.85-.6 1.88-.9 3.11-.9 1.52 0 2.76.46 3.74 1.38.97.96 1.58 2.1 1.82 3.43h-2.54a3.47 3.47 0 0 0-1.06-1.67 3.1 3.1 0 0 0-1.96-.68c-.56.03-1.04.14-1.44.33-.43.23-.77.51-1 .85-.3.33-.51.78-.63 1.34a38.01 38.01 0 0 0-.13 5.26c.03.53.07.95.13 1.23.12.58.32 1.04.62 1.37.24.35.58.62 1.01.81.38.25.86.37 1.44.37 1.35 0 2.35-.74 3.02-2.21h2.54c-.34 1.5-1 2.66-1.99 3.47zm5.89-15.14h10.1v2.32h-7.7v4.61h6.58v2.2h-6.58v4.75h7.7v2.32h-10.1zm21.25 0h6.13c1.58.03 2.75.43 3.5 1.2.8.8 1.19 1.85 1.19 3.14.01.67-.14 1.3-.47 1.91-.15.3-.39.57-.72.83-.32.29-.7.53-1.15.74v.05c.86.23 1.52.69 1.96 1.39.42.7.63 1.48.63 2.34a4.64 4.64 0 0 1-1.3 3.33 4.17 4.17 0 0 1-3.1 1.27h-6.67zm6.09 13.88c.87-.01 1.52-.26 1.95-.74.41-.48.62-1.04.62-1.7 0-.66-.2-1.23-.62-1.7-.41-.46-1.06-.7-1.95-.73h-3.7v4.87zm-.23-7.06c.87 0 1.52-.23 1.93-.7.42-.43.63-.97.63-1.62a2.3 2.3 0 0 0-.63-1.66c-.4-.4-1.04-.63-1.93-.66h-3.46v4.64zm9.62-6.82h2.4v11.75l6.84-11.75h2.2v16.2h-2.4v-11.77l-6.87 11.77h-2.17zm15.4 13.88h1.44a15.43 15.43 0 0 0 1.47-4.8c.17-1.05.29-2.3.36-3.76.08-1.46.12-3.23.12-5.32h9.04v13.88h1.86V436h-2.27v-3.65h-9.75V436h-2.27zm10.03 0v-11.56h-4.35c0 1.65-.04 3.07-.12 4.26a34.05 34.05 0 0 1-.32 3.12 15.22 15.22 0 0 1-1.23 4.18zm8.22-13.88h2.4v6.37h3.67c.75 0 1.44.12 2.05.36a4.43 4.43 0 0 1 2.62 2.56c.24.6.36 1.27.36 2s-.13 1.4-.37 2a4.46 4.46 0 0 1-2.6 2.56c-.62.24-1.3.35-2.06.35h-6.07zm5.93 13.88c.86 0 1.53-.23 2.01-.7.48-.48.72-1.12.72-1.93 0-.83-.24-1.48-.72-1.96a2.73 2.73 0 0 0-2.01-.71h-3.53v5.3zm7.08-13.88h2.4v16.2h-2.4zm14.62 0h2.26l4.54 10.56 4.45-10.56h2.26v16.2h-2.4v-10.1h-.04l-3.32 7.78h-2l-3.3-7.78h-.05v10.1h-2.4zm18.63 0h10.1v2.32h-7.7v4.61h6.58v2.2h-6.58v4.75h7.7v2.32h-10.1zm13.53 13.88h1.45a15.44 15.44 0 0 0 1.47-4.8c.16-1.05.28-2.3.36-3.76.07-1.46.11-3.23.11-5.32h9.04v13.88h1.87V436h-2.27v-3.65h-9.76V436h-2.27zm10.03 0v-11.56h-4.35c0 1.65-.04 3.07-.11 4.26a34 34 0 0 1-.33 3.12 15.2 15.2 0 0 1-1.23 4.18zm8.23-13.88h2.4v11.75l6.84-11.75h2.2v16.2h-2.4v-11.77l-6.87 11.77h-2.17zm27.13 16.2h-10.57v-16.2h2.4v13.88h6.17v-13.88h2.4v13.88H567V436h-2.27zm6.23-16.2h2.4v11.75l6.85-11.75h2.19v16.2H580v-11.77l-6.87 11.77h-2.17zm16.56 0h2.4v6.93h6.26v-6.93h2.41v16.2h-2.4v-7.08h-6.27v7.08h-2.4zm24.97 15.14c-1 .8-2.2 1.2-3.57 1.2-.63 0-1.2-.08-1.72-.24-.52-.16-.99-.4-1.4-.7a5.24 5.24 0 0 1-1.84-1.98l-.32-.7a4.86 4.86 0 0 1-.22-.86c-.1-.62-.16-1.88-.16-3.76 0-.96.01-1.75.04-2.37a11 11 0 0 1 .12-1.41 5.6 5.6 0 0 1 5.5-4.46c1.5 0 2.75.46 3.73 1.38.98.96 1.58 2.1 1.82 3.43h-2.54a3.47 3.47 0 0 0-1.06-1.67 3.1 3.1 0 0 0-1.95-.68c-.57.03-1.05.14-1.45.33-.43.23-.77.51-1 .85-.3.33-.51.78-.63 1.34a38 38 0 0 0-.13 5.26c.03.53.08.95.13 1.23.12.58.33 1.04.62 1.37.24.35.58.62 1.01.81.39.25.87.37 1.45.37 1.34 0 2.35-.74 3.01-2.21h2.54c-.34 1.5-1 2.66-1.98 3.47zm5.88-15.14h2.4v6.93h1.62a1.83 1.83 0 0 0 1.45-.65 6.5 6.5 0 0 0 .84-1.46l.74-1.82c.17-.45.35-.87.53-1.24.18-.38.4-.7.63-.96.25-.26.54-.46.89-.6.34-.14.79-.2 1.32-.2h.93v2.32h-.5c-.26 0-.46.01-.62.03a.9.9 0 0 0-.4.16c-.11.08-.2.2-.28.34a9.2 9.2 0 0 0-.26.58l-1 2.52a3.65 3.65 0 0 1-1.6 1.85c.52.13.93.38 1.22.76.3.37.55.8.75 1.3l1.16 2.82.25.54c.07.15.17.28.28.38.1.1.24.17.4.21.15.05.36.07.63.07h.65v2.32h-1.2c-.61 0-1.12-.09-1.53-.27-.41-.18-.76-.47-1.06-.88a6.14 6.14 0 0 1-.48-.88c-.15-.33-.29-.64-.41-.95l-1.04-2.6a2.2 2.2 0 0 0-1.64-1.42c-.21-.04-.41-.06-.6-.06h-1.67v7.06h-2.4zm16.07 0h2.4v11.75l6.84-11.75h2.2v16.2h-2.4v-11.77l-6.87 11.77h-2.17zm20.05 7.89l-4.53-7.9h2.7l3.17 5.63 3.16-5.62h2.7l-4.53 7.89 4.84 8.31h-2.71l-3.46-6.03-3.48 6.03h-2.7zm22.96 8.45c-.62 0-1.2-.08-1.71-.24-.52-.16-.99-.4-1.4-.7a5.24 5.24 0 0 1-1.85-1.98l-.31-.7a4.86 4.86 0 0 1-.22-.86c-.1-.62-.16-1.88-.16-3.76 0-.96.01-1.75.04-2.37.02-.62.06-1.1.12-1.41.12-.65.3-1.17.53-1.54a5.6 5.6 0 0 1 4.96-2.92 5.33 5.33 0 0 1 4.95 2.92c.26.36.44.87.57 1.54.08.64.13 1.9.13 3.78 0 1.85-.05 3.1-.13 3.76a4.2 4.2 0 0 1-.57 1.56 5.26 5.26 0 0 1-1.8 1.98c-.43.3-.9.54-1.42.7-.51.16-1.09.24-1.73.24zm-1.44-2.83c.38.25.86.37 1.44.37s1.08-.12 1.49-.37c.38-.19.7-.46.96-.8.32-.36.53-.81.64-1.38.1-.53.16-1.6.16-3.23 0-.8-.01-1.48-.03-2.02a7.34 7.34 0 0 0-.13-1.24c-.1-.55-.32-1-.64-1.34a2.98 2.98 0 0 0-.96-.85c-.43-.2-.93-.32-1.49-.33-.56.03-1.04.14-1.44.33-.43.23-.77.51-1.01.85-.3.33-.5.78-.62 1.34a38.03 38.03 0 0 0-.13 5.26c.03.53.07.95.13 1.23.12.58.32 1.04.62 1.37.24.35.58.62 1.01.81zm20.5 1.63c-1 .8-2.2 1.2-3.57 1.2-.62 0-1.2-.08-1.71-.24-.53-.16-1-.4-1.4-.7a5.24 5.24 0 0 1-1.85-1.98l-.31-.7a4.9 4.9 0 0 1-.22-.86c-.11-.62-.16-1.88-.16-3.76 0-.96 0-1.75.03-2.37.03-.62.07-1.1.13-1.41.11-.65.3-1.17.53-1.54a5.6 5.6 0 0 1 4.96-2.92c1.51 0 2.76.46 3.73 1.38.98.96 1.59 2.1 1.83 3.43h-2.54a3.47 3.47 0 0 0-1.07-1.67 3.1 3.1 0 0 0-1.95-.68c-.56.03-1.05.14-1.44.33-.44.23-.77.51-1.01.85-.3.33-.5.78-.62 1.34a38.03 38.03 0 0 0-.13 5.26c.03.53.07.95.13 1.23.11.58.32 1.04.62 1.37.24.35.57.62 1 .81.39.25.87.37 1.45.37 1.35 0 2.35-.74 3.02-2.21h2.54c-.34 1.5-1 2.66-1.99 3.47zm5.89-15.14h2.25l4.54 10.56 4.45-10.56h2.27v16.2h-2.4v-10.1h-.04l-3.32 7.78h-2l-3.31-7.78h-.04v10.1h-2.4zm23.83 16.34c-.62 0-1.19-.08-1.71-.24-.52-.16-.99-.4-1.4-.7a5.24 5.24 0 0 1-1.85-1.98l-.31-.7a4.93 4.93 0 0 1-.22-.86c-.1-.62-.16-1.88-.16-3.76 0-.96.01-1.75.04-2.37.02-.62.06-1.1.12-1.41.12-.65.3-1.17.53-1.54a5.6 5.6 0 0 1 1.85-2.02c.85-.6 1.88-.9 3.11-.9a5.33 5.33 0 0 1 4.95 2.92c.26.36.44.87.57 1.54.08.64.13 1.9.13 3.78 0 1.85-.05 3.1-.13 3.76a4.2 4.2 0 0 1-.57 1.56 5.26 5.26 0 0 1-1.8 1.98c-.43.3-.9.54-1.41.7-.52.16-1.1.24-1.74.24zm-1.44-2.83c.38.25.87.37 1.44.37.58 0 1.08-.12 1.5-.37.37-.19.7-.46.95-.8.32-.36.54-.81.64-1.38.1-.53.16-1.6.16-3.23 0-.8-.01-1.48-.03-2.02a7.34 7.34 0 0 0-.13-1.24c-.1-.55-.32-1-.64-1.34a2.99 2.99 0 0 0-.96-.85c-.43-.2-.93-.32-1.49-.33-.56.03-1.04.14-1.44.33-.43.23-.77.51-1 .85-.3.33-.51.78-.63 1.34a37.87 37.87 0 0 0-.13 5.26c.03.53.08.95.13 1.23.12.58.32 1.04.62 1.37.24.35.58.62 1.01.81zm14.7-11.2h-4.33v-2.31h11.07v2.32h-4.33v13.88h-2.41zm10.64-2.31h5.73a9.34 9.34 0 0 1 1.8.17 5.05 5.05 0 0 1 2.98 2.5c.32.66.49 1.44.49 2.33 0 1.2-.42 2.3-1.24 3.28a4.58 4.58 0 0 1-3.71 1.6h-3.65v6.32h-2.4zm5.95 7.55c.89-.02 1.56-.3 2-.84.43-.53.65-1.13.65-1.78 0-.54-.09-1-.26-1.37a2.01 2.01 0 0 0-.76-.78 3 3 0 0 0-1.72-.46h-3.46v5.23zm14.55 8.79c-.62 0-1.2-.08-1.72-.24-.52-.16-.98-.4-1.4-.7a5.24 5.24 0 0 1-1.84-1.98l-.32-.7a4.93 4.93 0 0 1-.21-.86c-.11-.62-.17-1.88-.17-3.76 0-.96.02-1.75.04-2.37a11 11 0 0 1 .13-1.41c.11-.65.29-1.17.53-1.54a5.6 5.6 0 0 1 1.84-2.02c.85-.6 1.89-.9 3.12-.9a5.33 5.33 0 0 1 4.95 2.92c.25.36.44.87.56 1.54.09.64.13 1.9.13 3.78 0 1.85-.04 3.1-.13 3.76a4.2 4.2 0 0 1-.56 1.56 5.26 5.26 0 0 1-1.8 1.98c-.43.3-.9.54-1.42.7-.52.16-1.1.24-1.73.24zm-1.44-2.83c.38.25.86.37 1.44.37s1.07-.12 1.49-.37c.38-.19.7-.46.95-.8.33-.36.54-.81.64-1.38.1-.53.16-1.6.16-3.23 0-.8 0-1.48-.03-2.02a7.34 7.34 0 0 0-.13-1.24c-.1-.55-.31-1-.64-1.34a2.99 2.99 0 0 0-.95-.85c-.44-.2-.93-.32-1.5-.33-.56.03-1.04.14-1.43.33-.44.23-.78.51-1.01.85-.3.33-.5.78-.62 1.34a38.03 38.03 0 0 0-.13 5.26c.03.53.07.95.13 1.23.11.58.32 1.04.62 1.37.23.35.57.62 1 .81zm11.75-13.51h6.13c1.59.03 2.75.43 3.5 1.2.8.8 1.19 1.85 1.19 3.14.01.67-.14 1.3-.47 1.91-.15.3-.39.57-.71.83-.33.29-.71.53-1.15.74v.05c.86.23 1.5.69 1.95 1.39.42.7.63 1.48.63 2.34a4.64 4.64 0 0 1-1.3 3.33 4.18 4.18 0 0 1-3.1 1.27h-6.67zm6.09 13.88c.87-.01 1.52-.26 1.95-.74.41-.48.62-1.04.62-1.7 0-.66-.2-1.23-.62-1.7-.41-.46-1.06-.7-1.95-.73h-3.7v4.87zm-.23-7.06c.88 0 1.52-.23 1.93-.7.42-.43.63-.97.63-1.62a2.3 2.3 0 0 0-.63-1.66c-.4-.4-1.04-.63-1.93-.66h-3.46v4.64z"/></defs><g><g transform="translate(-218 -293)"><g><use fill="#ffffff" xlink:href="#wr7aa"/></g><g><use fill="#ffffff" xlink:href="#wr7ab"/></g><g><use fill="#ffffff" xlink:href="#wr7ac"/></g><g><use fill="#ffffff" xlink:href="#wr7ad"/></g></g></g></svg>
@@ -947,49 +967,49 @@
                                     <div class="col-md-3 col-6">
                                         <div class="serviceBlock">
                                             <a href="#" class="serviceBlockImage serviceBlockImage--1"><img src="/assets/images/service-1.svg"></a>
-                                            <div class="serviceBlockText">Профосмотры</div>
+                                            <a href="#" class="serviceBlockText projectLink">Профосмотры</a>
                                         </div>
                                     </div>
                                     <div class="col-md-3 col-6">
                                         <div class="serviceBlock">
                                             <a href="#" class="serviceBlockImage serviceBlockImage--2"><img src="/assets/images/service-2.svg"></a>
-                                            <div class="serviceBlockText">Медосмотры</div>
+                                            <a href="#" class="serviceBlockText projectLink">Медосмотры</a>
                                         </div>
                                     </div>
                                     <div class="col-md-3 col-6">
                                         <div class="serviceBlock">
                                             <a href="#" class="serviceBlockImage serviceBlockImage--3"><img src="/assets/images/service-3.svg"></a>
-                                            <div class="serviceBlockText">Лабораторные анализы</div>
+                                            <a href="#" class="serviceBlockText projectLink">Лабораторные анализы</a>
                                         </div>
                                     </div>
                                     <div class="col-md-3 col-6">
                                         <div class="serviceBlock">
                                             <a href="#" class="serviceBlockImage serviceBlockImage--4"><img src="/assets/images/service-4.svg"></a>
-                                            <div class="serviceBlockText">Диагностика</div>
+                                            <a href="#" class="serviceBlockText projectLink">Диагностика</a>
                                         </div>
                                     </div>
                                     <div class="col-md-3 col-6">
                                         <div class="serviceBlock">
                                             <a href="#" class="serviceBlockImage serviceBlockImage--5"><img src="/assets/images/service-5.svg"></a>
-                                            <div class="serviceBlockText">Обследование</div>
+                                            <a href="#" class="serviceBlockText projectLink">Обследование</a>
                                         </div>
                                     </div>
                                     <div class="col-md-3 col-6">
                                         <div class="serviceBlock">
                                             <a href="#" class="serviceBlockImage serviceBlockImage--6"><img src="/assets/images/service-6.svg"></a>
-                                            <div class="serviceBlockText">Оформление документов</div>
+                                            <a href="#" class="serviceBlockText projectLink">Оформление документов</a>
                                         </div>
                                     </div>
                                     <div class="col-md-3 col-6">
                                         <div class="serviceBlock">
                                             <a href="#" class="serviceBlockImage serviceBlockImage--7"><img src="/assets/images/service-7.svg"></a>
-                                            <div class="serviceBlockText">Медкомиссии</div>
+                                            <a href="#" class="serviceBlockText projectLink">Медкомиссии</a>
                                         </div>
                                     </div>
                                     <div class="col-md-3 col-6">
                                         <div class="serviceBlock">
                                             <a href="#" class="serviceBlockImage serviceBlockImage--8"><img src="/assets/images/service-8.svg"></a>
-                                            <div class="serviceBlockText">Паспорт здоровья</div>
+                                            <a href="#" class="serviceBlockText projectLink">Паспорт здоровья</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1329,7 +1349,8 @@
     var addStylesNode = document.getElementById("deferred-styles");
     var replacement = document.createElement("div");
     replacement.innerHTML = addStylesNode.textContent;
-    document.body.appendChild(replacement)
+    replacement.id = "deferred-styles";
+    document.body.appendChild(replacement);
     addStylesNode.parentElement.removeChild(addStylesNode);
     };
     var raf = window.requestAnimationFrame || window.mozRequestAnimationFrame ||

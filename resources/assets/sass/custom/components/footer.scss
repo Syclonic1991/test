@@ -11,7 +11,7 @@
   display: flex;
   align-items: stretch;
   justify-content: space-between;
-  padding: 48px 0 0;
+  padding: 49px 0 0;
   @media(max-width: $breakpointDesktop) {
     padding: 39px 0 46px;
   }
@@ -85,6 +85,17 @@
     }
   }
 }
+.footerLinkBlockContainer {
+  div {
+    @media(min-width: $breakpointLarge) {
+      &:nth-child(2) {
+        .footerLinkContainer {
+          margin: 0;
+        }
+      }
+    }
+  }
+}
 
 .footerLinkBlockContainer {
   display: flex;
@@ -97,7 +108,7 @@
     margin: 0 50px 0 0;
   }
   @media(min-width: $breakpointLarge) {
-    margin: 0 101px 0 0;
+    margin: 0 133px 0 0;
   }
 }
 
@@ -141,11 +152,11 @@
   justify-content: space-between;
   @media(min-width: $breakpointDesktop) {
     padding-left: 107px;
-    padding-right: 70px;
+    padding-right: 223px;
   }
   @media(min-width: $breakpointLarge) {
     padding-left: 240px;
-    padding-right: 15px;
+    padding-right: 20px;
   }
   @media(max-width: $breakpointDesktop) {
     display: none;
