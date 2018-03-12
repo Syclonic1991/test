@@ -43,9 +43,9 @@
                                 @else
                                         {{ '' }}
                                 @endif" name="password" required>
-                                @if ($errors->has('email') && !$errors->has('password'))
+                                @if ($errors->has('email') or $errors->has('password'))
                                     <span class="invalid-feedback">
-                                        <strong>{{ $errors->first('email') }}</strong>
+                                        <strong>{{ 'Неверные данные для входа' }}</strong>
                                     </span>
                                 @else
                                     <span class="invalid-feedback">
@@ -58,7 +58,7 @@
                             <div class="col-md-6 offset-md-4">
                                 <div class="form-check">
                                     <input type="checkbox" class="form-check-input" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
-                                    <label style="padding-left: 10px"> Запомнить меня</label>
+                                    <label for="remember" style="padding-left: 10px"> Запомнить меня</label>
                                 </div>
                             </div>
                         </div>
