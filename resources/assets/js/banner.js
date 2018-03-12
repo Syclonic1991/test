@@ -67,8 +67,8 @@ if (countImagesInViewport > 30) {
   const diff = countImagesInViewport - 30;
   sources = sources.concat(sources.slice(0, diff))
 }
-  
-  Array.from(document.querySelectorAll('.bannerImage')).map(elm => elm.classList.remove('ready'))
+
+  Array.from(document.querySelectorAll('.bannerImage')).map(elm => elm.classList.remove('ready'));
 
   const images = document.querySelectorAll('.bannerImage img')
   let lastIndex = 0;
@@ -84,17 +84,24 @@ if (countImagesInViewport > 30) {
       if (Date.now() - loadTimeStart < 100) {
         console.log('MANUAL TIMEOUT')
         setTimeout(() => {
-               elm.parentElement.classList.add('ready');
+          elm.parentElement.classList.add('ready');
+          imagesLoaded += 1;
+          if (imagesLoaded >= countImagesInViewport) {
+            $('.bannerContainer').trigger('loaded');
+          }
         }, randomBetween(500, 2000))
       } else {
         elm.parentElement.classList.add('ready');
+        imagesLoaded += 1;
+        if (imagesLoaded >= countImagesInViewport) {
+          $('.bannerContainer').trigger('loaded');
+        }
       }
      
     }
-    imagesLoaded += 1;
     
   })
-  console.log('INITIALY IMAGES LOADEd -> ', imagesLoaded)
+  // console.log('INITIALY IMAGES LOADEd -> ', imagesLoaded)
 }
 
                                 
