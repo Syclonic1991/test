@@ -23,25 +23,31 @@
             <div class="card">
                 <div class="card-header">Вход</div>
                 <div class="card-body">
-                    <form method="POST" action="{{ route('login') }}">
+                    <form method="POST" action="{{ route('login') }}" novalidate="novalidate">
                         {{ csrf_field() }}
                         <div class="form-group row">
                             <label for="email" class="col-sm-4 col-form-label text-md-right">E-Mail</label>
                             <div class="col-md-6">
-                                <input id="email" type="email" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" required autofocus>
-
-                                @if ($errors->has('email'))
-                                    <span class="invalid-feedback">
-                                        <strong>{{ $errors->first('email') }}</strong>
-                                    </span>
-                                @endif
+                                <input id="email" type="email" class="form-control @if ($errors->has('email') or $errors->has('password'))
+                                    {{ 'is-invalid' }}
+                                @else
+                                    {{ '' }}
+                                @endif" name="email" value="{{ old('email') }}" required autofocus>
                             </div>
                         </div>
                         <div class="form-group row">
                             <label for="password" class="col-md-4 col-form-label text-md-right">Пароль</label>
                             <div class="col-md-6">
-                                <input id="password" type="password" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" required>
-                                @if ($errors->has('password'))
+                                <input id="password" type="password" class="form-control @if ($errors->has('email') or $errors->has('password'))
+                                        {{ 'is-invalid' }}
+                                @else
+                                        {{ '' }}
+                                @endif" name="password" required>
+                                @if ($errors->has('email') && !$errors->has('password'))
+                                    <span class="invalid-feedback">
+                                        <strong>{{ $errors->first('email') }}</strong>
+                                    </span>
+                                @else
                                     <span class="invalid-feedback">
                                         <strong>{{ $errors->first('password') }}</strong>
                                     </span>
@@ -52,7 +58,7 @@
                             <div class="col-md-6 offset-md-4">
                                 <div class="form-check">
                                     <input type="checkbox" class="form-check-input" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
-                                    <label class="form-check-label" for="remember">Запомнить меня</label>
+                                    <label style="padding-left: 10px"> Запомнить меня</label>
                                 </div>
                             </div>
                         </div>
