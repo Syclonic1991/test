@@ -947,49 +947,49 @@
                                     <div class="col-md-3 col-6">
                                         <div class="serviceBlock">
                                             <a href="#" class="serviceBlockImage serviceBlockImage--1"><img src="/assets/images/service-1.svg"></a>
-                                            <div class="serviceBlockText">Профосмотры</div>
+                                            <a href="#" class="serviceBlockText projectLink">Профосмотры</a>
                                         </div>
                                     </div>
                                     <div class="col-md-3 col-6">
                                         <div class="serviceBlock">
                                             <a href="#" class="serviceBlockImage serviceBlockImage--2"><img src="/assets/images/service-2.svg"></a>
-                                            <div class="serviceBlockText">Медосмотры</div>
+                                            <a href="#" class="serviceBlockText projectLink">Медосмотры</a>
                                         </div>
                                     </div>
                                     <div class="col-md-3 col-6">
                                         <div class="serviceBlock">
                                             <a href="#" class="serviceBlockImage serviceBlockImage--3"><img src="/assets/images/service-3.svg"></a>
-                                            <div class="serviceBlockText">Лабораторные анализы</div>
+                                            <a href="#" class="serviceBlockText projectLink">Лабораторные анализы</a>
                                         </div>
                                     </div>
                                     <div class="col-md-3 col-6">
                                         <div class="serviceBlock">
                                             <a href="#" class="serviceBlockImage serviceBlockImage--4"><img src="/assets/images/service-4.svg"></a>
-                                            <div class="serviceBlockText">Диагностика</div>
+                                            <a href="#" class="serviceBlockText projectLink">Диагностика</a>
                                         </div>
                                     </div>
                                     <div class="col-md-3 col-6">
                                         <div class="serviceBlock">
                                             <a href="#" class="serviceBlockImage serviceBlockImage--5"><img src="/assets/images/service-5.svg"></a>
-                                            <div class="serviceBlockText">Обследование</div>
+                                            <a href="#" class="serviceBlockText projectLink">Обследование</a>
                                         </div>
                                     </div>
                                     <div class="col-md-3 col-6">
                                         <div class="serviceBlock">
                                             <a href="#" class="serviceBlockImage serviceBlockImage--6"><img src="/assets/images/service-6.svg"></a>
-                                            <div class="serviceBlockText">Оформление документов</div>
+                                            <a href="#" class="serviceBlockText projectLink">Оформление документов</a>
                                         </div>
                                     </div>
                                     <div class="col-md-3 col-6">
                                         <div class="serviceBlock">
                                             <a href="#" class="serviceBlockImage serviceBlockImage--7"><img src="/assets/images/service-7.svg"></a>
-                                            <div class="serviceBlockText">Медкомиссии</div>
+                                            <a href="#" class="serviceBlockText projectLink">Медкомиссии</a>
                                         </div>
                                     </div>
                                     <div class="col-md-3 col-6">
                                         <div class="serviceBlock">
                                             <a href="#" class="serviceBlockImage serviceBlockImage--8"><img src="/assets/images/service-8.svg"></a>
-                                            <div class="serviceBlockText">Паспорт здоровья</div>
+                                            <a href="#" class="serviceBlockText projectLink">Паспорт здоровья</a>
                                         </div>
                                     </div>
                                 </div>
