@@ -43,8 +43,6 @@
   position: relative;
   width: 325px;
   height: 420px;
-  background-color: rgba(#b8d5ff, 0.89);
-  mix-blend-mode: hard-light;
   @media (max-width: #{$breakpointTablet}) {
     width: 248px;
     height: 340px;
@@ -65,6 +63,37 @@
 
   &::after {
     bottom: -64px;
+  }
+}
+
+.blockPhoto__overlay-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  &--5 {
+    background-color: #059dec;
+    mix-blend-mode: hue;
+  }
+  &--4 {
+    background-color: #56adff;
+    mix-blend-mode: color;
+    opacity: .8;
+  }
+  &--3 {
+    background-color: #fff4be;
+    mix-blend-mode: luminosity;
+    opacity: .5;
+  }
+  &--2 {
+    background-color: #5a09ff;
+    mix-blend-mode: exclusion;
+    opacity: .3;
+  }
+  &--1 {
+    background-color: #ffffff;
+    mix-blend-mode: soft-light;
   }
 }
 

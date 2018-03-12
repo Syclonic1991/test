@@ -847,7 +847,13 @@
             <div class="blockPhoto__img-wrap">
                 <img src="/assets/images/main-photo-1.jpg" alt="">
             </div>
-            <div class="blockPhoto__overlay"></div>
+            <div class="blockPhoto__overlay">
+                <div class="blockPhoto__overlay-layer blockPhoto__overlay-layer--1"></div>
+                <div class="blockPhoto__overlay-layer blockPhoto__overlay-layer--2"></div>
+                <div class="blockPhoto__overlay-layer blockPhoto__overlay-layer--3"></div>
+                <div class="blockPhoto__overlay-layer blockPhoto__overlay-layer--4"></div>
+                <div class="blockPhoto__overlay-layer blockPhoto__overlay-layer--5"></div>
+            </div>
         </div>
         <div class="blockPhoto__content-wrap">
             <div class="container-fluid">
