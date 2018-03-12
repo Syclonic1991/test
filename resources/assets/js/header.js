@@ -1,4 +1,4 @@
-$(function () {
+$(() => {
   const $clone = $('#blurClone');
   const $content = $('#pageWrap');
   const $blurWrap = $('#blurWrap');
@@ -9,9 +9,10 @@ $(function () {
   const $bannerContainer = $('.bannerContainer');
 
   $bannerContainer.on('loading', () => {
+    console.log('loading images...');
     $blurWrap.css({
-      'transition': 'none',
-      'opacity': '0',
+      transition: 'none',
+      opacity: '0',
     });
   });
 
@@ -21,17 +22,17 @@ $(function () {
     $cloneBody.append($deferredStyles.html());
     $cloneHead.html($head.html());
     $cloneBody.css({
-      'overflow': 'hidden',
-      'transform': `translate3d(0, -${window.scrollY}px, 0)`,
+      overflow: 'hidden',
+      transform: `translate3d(0, -${window.scrollY}px, 0)`,
       'padding-top': '20px',
       'will-change': 'transform',
     });
-  setTimeout(() => {
-    $blurWrap.css({
-      'transition': '',
-      'opacity': '1',
-    });
-  }, 300);
+    setTimeout(() => {
+      $blurWrap.css({
+        transition: '',
+        opacity: '1',
+      });
+    }, 300);
   });
 
   $(window).on('scroll', () => {
