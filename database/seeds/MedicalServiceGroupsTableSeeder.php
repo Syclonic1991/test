@@ -12,15 +12,18 @@ class MedicalServiceGroupsTableSeeder extends Seeder
      */
     public function run()
     {
-        $jsonFile = file_get_contents("database/seeds/seeder_data/medical_service_groups.json");
-        $jsonData = json_decode($jsonFile, true);
+        if (MedicalServiceGroup::count() == 0) {
+            $jsonFile = file_get_contents("database/seeds/seeder_data/medical_service_groups.json");
+            $jsonData = json_decode($jsonFile, true);
 
-        foreach($jsonData as $dataRow) {
-            MedicalServiceGroup::create([
-                'name' => $dataRow['name'],
-                'description' => $dataRow['description'],
-                'slug' => $dataRow['slug']
-            ]);
+            foreach($jsonData as $dataRow) {
+                MedicalServiceGroup::create([
+                    'name' => $dataRow['name'],
+                    'description' => $dataRow['description'],
+                    'slug' => $dataRow['slug']
+                ]);
+            }
         }
+
     }
 }

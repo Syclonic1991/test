@@ -12,10 +12,12 @@ class UsersTableSeeder extends Seeder
      */
     public function run()
     {
-        User::create([
-            'email' => 'admin@biospets.ru',
-            'name' => 'admin',
-            'password' => Hash::make('secret')
-        ]);
+        if (User::count() == 0) {
+            User::create([
+                'email' => 'admin@biospets.ru',
+                'name' => 'admin',
+                'password' => Hash::make('secret')
+            ]);
+        }
     }
 }
