@@ -13,7 +13,7 @@ class MedicalServiceGroupsTableSeeder extends Seeder
     public function run()
     {
         if (MedicalServiceGroup::count() == 0) {
-            $jsonFile = file_get_contents("database/seeds/seeder_data/medical_service_groups.json");
+            $jsonFile = file_get_contents(base_path(). "/database/seeds/seeder_data/medical_service_groups.json");
             $jsonData = json_decode($jsonFile, true);
 
             foreach($jsonData as $dataRow) {
