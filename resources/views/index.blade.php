@@ -1285,10 +1285,10 @@
                         <div>
                             <ul class="footerLinkContainer">
                                 <li class="footerLinkContainer__li">
-                                    <a href="#" class="footerLinkContainerLink">Мед. центр</a>
+                                    <a href="#" class="footerLinkContainerLink">Мед.&nbsp;центр</a>
                                 </li>
                                 <li class="footerLinkContainer__li">
-                                    <a href="#" class="footerLinkContainerLink">Медицинская книжка</a>
+                                    <a href="#" class="footerLinkContainerLink">Медицинская&nbsp;книжка</a>
                                 </li>
                                 <li class="footerLinkContainer__li">
                                     <a href="#" class="footerLinkContainerLink">Профосмотр</a>
@@ -1298,13 +1298,13 @@
                         <div>
                             <ul class="footerLinkContainer">
                                 <li class="footerLinkContainer__li">
-                                    <a href="#" class="footerLinkContainerLink">Лабораторные анализы</a>
+                                    <a href="#" class="footerLinkContainerLink">Лабораторные&nbsp;анализы</a>
                                 </li>
                                 <li class="footerLinkContainer__li">
-                                    <a href="#" class="footerLinkContainerLink">Паспорт здоровья</a>
+                                    <a href="#" class="footerLinkContainerLink">Паспорт&nbsp;здоровья</a>
                                 </li>
                                 <li class="footerLinkContainer__li">
-                                    <a href="#" class="footerLinkContainerLink">Медицинские справки</a>
+                                    <a href="#" class="footerLinkContainerLink">Медицинские&nbsp;справки</a>
                                 </li>
                             </ul>
                         </div>
@@ -1320,14 +1320,14 @@
                                 <a href="#" class="footerLinkContainerLink">Акции</a>
                             </li>
                             <li class="footerLinkContainer__li">
-                                <a href="#" class="footerLinkContainerLink">Полезные статьи</a>
+                                <a href="#" class="footerLinkContainerLink">Полезные&nbsp;статьи</a>
                             </li>
                             <li class="footerLinkContainer__li">
                                 <a href="#" class="footerLinkContainerLink">Контакты</a>
                             </li>
                         </ul>
                     </div>
-                    <div class="footerCopyright">©2017 <a href="/">biospets.ru</a></div>
+                    <div class="footerCopyright">©2017 biospets.ru</div>
                 </div>
             </div>
             <div></div>

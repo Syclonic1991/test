@@ -5,6 +5,12 @@
   @media(max-width: $breakpointTablet) {
     padding: 35px 0 23px;
   }
+  .container-fluid {
+    padding: 0 47px;
+    @media(max-width: $breakpointTablet) {
+      padding: 0 15px;
+    }
+  }
 }
 .serviceContainer {
   .title-2 {
