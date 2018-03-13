@@ -67,6 +67,8 @@ const loadImages = () => {
   if (countImagesInViewport > 30) {
     const diff = countImagesInViewport - 30;
     sources = sources.concat(sources.slice(0, diff));
+  } else if (countImagesInViewport === 0) {
+    $(() => $('.bannerContainer').trigger('loaded'));
   }
 
   Array.from(document.querySelectorAll('.bannerImage')).map(elm => elm.classList.remove('ready'));
