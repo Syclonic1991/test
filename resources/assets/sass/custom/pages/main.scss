@@ -82,7 +82,6 @@
   margin: 0 auto 16px;
   cursor: pointer;
   position: relative;
-  border: solid 1px #b2d8f0;
   &:after {
     @include positionAbsCenter();
     content: '';
@@ -94,6 +93,7 @@
   &:hover {
     animation: pulse-shadow 2s infinite;
     color: rgba(62, 196, 240, 1);
+    border: solid 1px #b2d8f0;
     &:after {
       box-shadow: none;
     }
