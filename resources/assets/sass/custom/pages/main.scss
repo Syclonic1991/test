@@ -88,6 +88,7 @@
     height: 98px;
     width: 98px;
     border-radius: 50%;
+    transition: all 400ms ease-in-out;
     box-shadow: 0 7px 30px rgba(43, 34, 34, 0.2);
   }
   &:hover {
