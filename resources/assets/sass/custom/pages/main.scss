@@ -1,9 +1,9 @@
 //service block begin
 .serviceWrap {
-  padding: 128px 0 185px;
+  padding: 128px 0 187px;
   overflow: hidden;
   @media(max-width: $breakpointTablet) {
-    padding: 25px 0 23px;
+    padding: 25px 0 27px;
   }
   .container-fluid {
     padding: 0 47px;
@@ -196,6 +196,21 @@
   }
 }
 //service block end
+
+
+// Questions block
+
+.questionsWrap {
+  .blockPhoto__img-wrap {
+    top: -31px;
+    right: 40px;
+    width: 115%;
+    height: 115%;
+  }
+}
+
+
+// Confidence block
 
 .confidenceWrap {
   padding: 83px 0;

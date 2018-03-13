@@ -1058,23 +1058,28 @@ body {
             </div>
         </div>
     </section>
-    <!-- <section class="blockPhoto blockPhoto--only-text questionsWrap">
-        <div class="blockPhoto__bg">
-            <div class="blockPhoto__img-wrap">
-                <img src="/assets/images/main-photo-1.jpg" alt="">
-            </div>
-            <div class="blockPhoto__overlay"></div>
-        </div>
+    <section class="blockPhoto blockPhoto--only-text questionsWrap">
+       <div class="blockPhoto__bg">
+           <div class="blockPhoto__img-wrap">
+               <img src="/assets/images/main-photo-1.jpg" alt="">
+           </div>
+           <div class="blockPhoto__overlay">
+               <div class="blockPhoto__overlay-layer blockPhoto__overlay-layer--1"></div>
+               <div class="blockPhoto__overlay-layer blockPhoto__overlay-layer--2"></div>
+               <div class="blockPhoto__overlay-layer blockPhoto__overlay-layer--3"></div>
+               <div class="blockPhoto__overlay-layer blockPhoto__overlay-layer--4"></div>
+               <div class="blockPhoto__overlay-layer blockPhoto__overlay-layer--5"></div>
+           </div>
+       </div>
         <div class="blockPhoto__content-wrap">
-            <div class="container-fluid">
-                <div class="blockPhoto__content">
-                    <h2 class="title-2">Мы ответим <br>на все вопросы</h2>
-                    <p class="paragraph-2">Если вы хотите записаться на прием или выяснить интересующие вас вопросы, просто нажмите на кнопку ниже и оставьте свои контактные данные. Наш менеджер свяжется с вами, и окажет помощь в течении одного часа.</p>
-                    <button class="projectBtn projectBtn--1">Получить консультацию</button>
-                </div>
+            <div class="blockPhoto__content">
+                <h2 class="title-2">Мы ответим <br>на все вопросы</h2>
+                <p class="paragraph-2">Если вы хотите записаться на прием или выяснить интересующие вас вопросы, просто нажмите на кнопку ниже и оставьте свои контактные данные. Наш менеджер свяжется с вами, и окажет помощь в течении одного часа.</p>
+                <button class="projectBtn projectBtn--1">Получить консультацию</button>
             </div>
         </div>
     </section>
+    <!--
     <section>
         <div class="confidenceWrap">
             <div class="container-fluid">

@@ -2,10 +2,14 @@
   position: relative;
   width: 100%;
   height: 547px;
+  margin-bottom: 120px;
   &--only-text {
-    @media (max-width: #{$breakpointTablet}) {
+    @media (max-width: $breakpointTablet) {
       height: 419px;
     }
+  }
+  @media (max-width: $breakpointMobile) {
+    margin-bottom: 31px;
   }
 }
 
@@ -15,13 +19,13 @@
   flex-flow: column nowrap;
   justify-content: center;
   align-items: flex-end;
-  width: 60%;
+  width: 65%;
   height: 547px;
   overflow: hidden;
-  @media (max-width: #{$breakpointTablet}) {
+  @media (max-width: $breakpointTablet) {
     height: 400px;
   }
-  @media (max-width: #{$breakpointMobile}) {
+  @media (max-width: $breakpointMobile) {
     width: 248px;
   }
 }
@@ -43,7 +47,7 @@
   position: relative;
   width: 325px;
   height: 420px;
-  @media (max-width: #{$breakpointTablet}) {
+  @media (max-width: $breakpointTablet) {
     width: 248px;
     height: 340px;
   }
@@ -55,6 +59,9 @@
     width: 30px;
     height: 64px;
     background-color: #fff;
+    @media (max-width: $breakpointMobile) {
+      width: 32px;
+    }
   }
 
   &::before {
@@ -99,77 +106,75 @@
 
 .blockPhoto__content-wrap {
   position: absolute;
-  top: 112px;
+  //top: 112px;
+  top: 123px; // FIX
   left: 0;
   right: 0;
-  @media (max-width: #{$breakpointTablet}) {
-    top: 54px;
+  @media (max-width: $breakpointTablet) {
+    top: 55px;
   }
 }
 
 .blockPhoto__content {
-  margin-left: 0;
-  @media (min-width: #{$breakpointMobile}) {
-    margin-left: 30%;
+  max-width: 766px;
+  margin-left: calc(65% - 295px);
+  margin-right: 20px;
+  @media (max-width: $breakpointTablet) {
+    margin-left: calc(65% - 218px);
   }
-  @media (min-width: #{$breakpointDesktop}) {
-    margin-left: 35%;
-  }
-  @media (min-width: $breakpointLarge) {
-    margin-left: 40%;
+  @media (max-width: $breakpointMobile) {
+    margin-left: 15px;
+    margin-right: 15px;
   }
 
   h2 {
     letter-spacing: -0.8px;
-    @media (max-width: #{$breakpointMobile}) {
-      margin-left: 15px;
-      margin-right: 25px;
+    @media (max-width: $breakpointMobile) {
+      margin: 0 25px 20px 15px;
+      line-height: 26px;
       letter-spacing: 0;
+
     }
   }
 
   p {
-    margin-right: 20px;
-    margin-left: 82px;
-    margin-top: 27px;
+    margin: 26px 25px 25px 80px;
     line-height: 22px;
     text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.7);
-    @media (max-width: #{$breakpointTablet}) {
+    letter-spacing: 0.2px;
+    @media (max-width: $breakpointTablet) {
       margin-left: 0;
       margin-right: 0;
     }
-    @media (max-width: #{$breakpointMobile}) {
-      margin-left: 15px;
-      margin-top: 17px;
+    @media (max-width: $breakpointMobile) {
+      margin: 17px 15px 24px;
     }
   }
 
   button {
     float: right;
     width: 210px;
-    margin-right: 10px;
-    margin-top: 8px;
-    @media (max-width: #{$breakpointMobile}) {
+    margin-right: 23px;
+    @media (max-width: $breakpointMobile) {
       float: none;
       width: calc(100% - 30px);
-      margin-right: 0;
-      margin-left: 15px;
+      margin: 0 15px;
     }
   }
 }
 
 .blockPhoto--reviews {
   .blockPhoto__img-wrap img {
-    @media (max-width: #{$breakpointTablet}) {
+    @media (max-width: $breakpointTablet) {
       left: -30%;
     }
-    @media (max-width: #{$breakpointMobile}) {
+    @media (max-width: $breakpointMobile) {
       left: -90%;
     }
   }
   .blockPhoto__content {
     padding-top: 55px;
-    @media (min-width: #{$breakpointMobile}) {
+    @media (min-width: $breakpointMobile) {
       padding-top: 0;
     }
   }
