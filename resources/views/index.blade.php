@@ -619,14 +619,16 @@
   margin-left: -15px;
 }
 
-.d-lg-flex {
-    display: -webkit-box !important;
-    display: -ms-flexbox !important;
-    display: flex !important;
-}
-
 .d-none {
     display: none !important;
+}
+
+@media (min-width: 992px) {
+    .d-lg-flex {
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+    }
 }
 
 .justify-content-center {

@@ -112,12 +112,14 @@
 
 .blockPhoto__content-wrap {
   position: absolute;
-  //top: 112px;
-  top: 123px; // FIX
+  top: 112px;
   left: 0;
   right: 0;
   @media (max-width: $breakpointTablet) {
     top: 55px;
+  }
+  @media (min-width: $breakpointLarge) {
+    top: 123px;
   }
 }
 
@@ -137,6 +139,7 @@
   }
 
   h2 {
+    color: #000000;
     letter-spacing: -0.8px;
     @media (max-width: $breakpointMobile) {
       margin: 0 25px 20px 15px;
@@ -148,6 +151,7 @@
 
   p {
     margin: 26px 25px 25px 80px;
+    color: #444b53;
     line-height: 22px;
     text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.7);
     letter-spacing: 0.2px;
