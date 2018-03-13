@@ -28,6 +28,9 @@
   @media (max-width: $breakpointMobile) {
     width: 248px;
   }
+  @media (min-width: $breakpointLarge) {
+    width: 56%;
+  }
 }
 
 .blockPhoto__img-wrap {
@@ -40,6 +43,9 @@
     position: absolute;
     left: 0;
     height: 100%;
+  }
+  @media (min-width: $breakpointLarge) {
+    max-width: 885px;
   }
 }
 
@@ -125,6 +131,9 @@
   @media (max-width: $breakpointMobile) {
     margin-left: 15px;
     margin-right: 15px;
+  }
+  @media (min-width: $breakpointLarge) {
+    margin-left: calc(56% - 295px);
   }
 
   h2 {
