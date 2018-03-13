@@ -68,10 +68,10 @@
   height: 87px;
   background: url('/assets/images/logo.svg') no-repeat 15px 13px;
 
-  @include media-breakpoint-down(sm) {
+  @media (max-width: $breakpointMobile) {
     max-width: 140px;
     height: 49px;
-    background: url('/assets/images/logo-mobile.svg') no-repeat 5px 10px;
+    background: url('/assets/images/logo-mobile.svg') no-repeat 2px 9px;
   }
 }
 
@@ -99,6 +99,12 @@
   letter-spacing: -1.05px;
 }
 
+.header__menu {
+  @media (max-width: $breakpointMobile) {
+    margin-top: 3px;
+  }
+}
+
 .header__menu-button {
   position: relative;
   display: flex;
@@ -110,7 +116,7 @@
   margin-right: 23px;
   cursor: pointer;
 
-  @include media-breakpoint-down(sm) {
+  @media (max-width: $breakpointMobile) {
     margin-top: -5px;
     margin-right: -5px;
   }
