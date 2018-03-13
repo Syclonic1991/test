@@ -85,14 +85,16 @@
   &:after {
     @include positionAbsCenter();
     content: '';
-    height: 100px;
-    width: 100px;
+    height: 98px;
+    width: 98px;
     border-radius: 50%;
+    transition: all 400ms ease-in-out;
     box-shadow: 0 7px 30px rgba(43, 34, 34, 0.2);
   }
   &:hover {
     animation: pulse-shadow 2s infinite;
-    color: rgba(43, 34, 34, 0.2);
+    color: rgba(62, 196, 240, 1);
+    border: solid 1px #b2d8f0;
     &:after {
       box-shadow: none;
     }
@@ -129,8 +131,8 @@
     }
   }
   @media(max-width: $breakpointTablet) {
-    max-width: 90px;
-    max-height: 90px;
+    max-width: 88px;
+    max-height: 88px;
     margin: 0 auto 25px;
     &:after {
       width: 90px;
@@ -560,9 +562,9 @@
     box-shadow: 0 0;
   }
   70% {
-    box-shadow: 0 0 5px 25px rgba(43, 34, 34, 0);
+    box-shadow: 0 0 5px 25px rgba(62, 196, 240, 0);
   }
   100% {
-    box-shadow: 0 0 0 0 rgba(43, 34, 34, 0);
+    box-shadow: 0 0 0 0 rgba(62, 196, 240, 0);
   }
 }
