@@ -27,7 +27,7 @@ if (supportsBackdropFilter) {
     $bannerContainer.on('loaded', () => {
       console.log('images loaded');
       $cloneBody.html($content.html());
-      $cloneBody.append($deferredStyles.html());
+      $cloneBody.append($deferredStyles.clone());
       $cloneHead.html($head.html());
       $cloneBody.css({
         overflow: 'hidden',

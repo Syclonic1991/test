@@ -5,6 +5,7 @@
     <title>Главная</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
     
     <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/x-icon">
     <link rel="icon" href="/assets/images/favicon.png" type="image/x-icon">
