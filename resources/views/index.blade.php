@@ -743,7 +743,7 @@ body {
     background: url("/assets/images/logo.svg") no-repeat 15px 13px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
     .header__logo {
         max-width: 140px;
         height: 49px;
@@ -775,7 +775,7 @@ body {
     letter-spacing: -1.05px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
     .header__menu {
         margin-top: 3px;
     }
@@ -800,7 +800,7 @@ body {
     cursor: pointer;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
     .header__menu-button {
         margin-top: -5px;
         margin-right: -5px;
@@ -916,7 +916,7 @@ body {
 <body>
 <header class="header">
     <div class="header__blur-wrap" id="blurWrap" style="opacity: 0">
-        <div class="header__blur">
+        <div class="header__blur" id="blurBlock">
             <iframe id="blurClone" frameborder="0"></iframe>
         </div>
     </div>
@@ -1110,7 +1110,7 @@ body {
         <div class="blockPhoto__content-wrap">
             <div class="blockPhoto__content">
                 <h2 class="title-2">Мы ответим <br>на все вопросы</h2>
-                <p class="paragraph-2">Если вы хотите записаться на прием или выяснить интересующие вас вопросы, просто нажмите на кнопку ниже и оставьте свои контактные данные. Наш менеджер свяжется с вами, и окажет помощь в течении одного часа.</p>
+                <p class="paragraph-2">Если вы хотите записаться на прием или выяснить интересующие вас вопросы, просто нажмите на кнопку ниже и оставьте свои контактные данные. Наш менеджер свяжется с вами, и окажет помощь в течение одного часа.</p>
                 <button class="projectBtn projectBtn--1">Получить консультацию</button>
             </div>
         </div>
