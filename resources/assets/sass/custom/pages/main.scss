@@ -557,6 +557,7 @@
   @media(max-width: $breakpointTablet) {
     top: 51px;
     svg {
+      top: 0;
       left: -2px;
       max-width: 240px;
     }
