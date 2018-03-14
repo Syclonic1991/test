@@ -14,7 +14,6 @@ if (supportsBackdropFilter) {
     const $head = $('head');
     const $cloneBody = $($clone[0].contentDocument).find('body');
     const $cloneHead = $($clone[0].contentDocument).find('head');
-    const $deferredStyles = $('#deferred-styles');
     const $bannerContainer = $('.bannerContainer');
 
     $bannerContainer.on('loading', () => {
@@ -26,8 +25,9 @@ if (supportsBackdropFilter) {
     });
     $bannerContainer.on('loaded', () => {
       console.log('images loaded');
+      const deferredStylesContent = $('noscript#deferred-styles').text() || $('div#deferred-styles').html();
       $cloneBody.html($content.html());
-      $cloneBody.append($deferredStyles.clone());
+      $cloneBody.append($(deferredStylesContent));
       $cloneHead.html($head.html());
       $cloneBody.css({
         overflow: 'hidden',
