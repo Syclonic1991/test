@@ -948,7 +948,6 @@ body {
         <div>
             <div class="bannerContainer">
                 <div class="bannerBlockLine bannerBlockLine-1">
-                    <div class="bannerImage"><img data-src="/assets/images/banner/img-21.jpg" class="image"></div>
                     <div class="bannerImage"><img data-src="/assets/images/banner/img-22.jpg" class="image"></div>
                     <div class="bannerImage"><img data-src="/assets/images/banner/img-23.jpg" class="image"></div>
                     <div class="bannerImage"><img data-src="/assets/images/banner/img-24.jpg" class="image"></div>
@@ -965,7 +964,6 @@ body {
                     <div class="bannerImage"><img data-src="/assets/images/banner/img-30.jpg" class="image"></div>
                 </div>
                 <div class="bannerBlockLine bannerBlockLine-2">
-                    <div class="bannerImage"><img data-src="/assets/images/banner/img-1.jpg" class="image"></div>
                     <div class="bannerImage"><img data-src="/assets/images/banner/img-2.jpg" class="image"></div>
                     <div class="bannerImage"><img data-src="/assets/images/banner/img-3.jpg" class="image"></div>
                     <div class="bannerImage"><img data-src="/assets/images/banner/img-4.jpg" class="image"></div>
@@ -982,7 +980,6 @@ body {
                     <div class="bannerImage"><img data-src="/assets/images/banner/img-10.jpg" class="image"></div>
                 </div>
                 <div class="bannerBlockLine bannerBlockLine-3">
-                    <div class="bannerImage"><img data-src="/assets/images/banner/img-11.jpg" class="image"></div>
                     <div class="bannerImage"><img data-src="/assets/images/banner/img-12.jpg" class="image"></div>
                     <div class="bannerImage"><img data-src="/assets/images/banner/img-13.jpg" class="image"></div>
                     <div class="bannerImage"><img data-src="/assets/images/banner/img-14.jpg" class="image"></div>
@@ -999,7 +996,6 @@ body {
                     <div class="bannerImage"><img data-src="/assets/images/banner/img-20.jpg" class="image"></div>
                 </div>
                 <div class="bannerBlockLine bannerBlockLine-4">
-                    <div class="bannerImage"><img data-src="/assets/images/banner/img-1.jpg" class="image"></div>
                     <div class="bannerImage"><img data-src="/assets/images/banner/img-21.jpg" class="image"></div>
                     <div class="bannerImage"><img data-src="/assets/images/banner/img-22.jpg" class="image"></div>
                     <div class="bannerImage"><img data-src="/assets/images/banner/img-23.jpg" class="image"></div>

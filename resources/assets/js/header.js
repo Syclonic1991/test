@@ -32,7 +32,7 @@ if (supportsBackdropFilter) {
       $cloneBody.css({
         overflow: 'hidden',
         transform: `translate3d(0, -${window.scrollY}px, 0)`,
-        'padding-top': '20px',
+        'padding-top': '23px',
         'will-change': 'transform',
       });
       setTimeout(() => {

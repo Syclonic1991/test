@@ -518,7 +518,7 @@
 .bannerBlockLine-1 {
   margin-top: -100px;
   @media(max-width: $breakpointTablet) {
-    margin-top: -14px;
+    margin-top: -27px;
   }
 }
 .bannerImage {
@@ -540,19 +540,25 @@
     }
   }  
   @media(max-width: $breakpointTablet) {
-    width: 106px;
+    width: 107px;
     height: 79px;
-    min-width: 106px;
+    min-width: 107px;
   }
 }
 .bannerText {
   @include positionAbsCenter();
   @include flexCenter();
   top: 87px;
+  svg {
+    position: relative;
+    top: -5px;
+    left: -5px;
+  }
   @media(max-width: $breakpointTablet) {
-    top: 91px;
+    top: 51px;
     svg {
-      max-width: 237px;
+      left: -2px;
+      max-width: 240px;
     }
   } 
 }
