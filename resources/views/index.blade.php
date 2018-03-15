@@ -884,31 +884,39 @@ body {
 }
 
 .bannerText {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  top: 87px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    top: 87px
+}
+
+.bannerText svg {
+    position: relative;
+    top: -5px;
+    left: -5px
 }
 
 @media (max-width: 768px) {
-  .bannerText {
-    top: 49px;
-  }
+    .bannerText {
+        top:51px
+    }
 
-  .bannerText svg {
-    max-width: 237px;
-  }
+    .bannerText svg {
+        top: 0;
+        left: -2px;
+        max-width: 240px
+    }
 }
 
 
