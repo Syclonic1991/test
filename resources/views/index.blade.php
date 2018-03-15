@@ -11,6 +11,8 @@
     <link rel="icon" type="image/png" href="/assets/images/favicon-x2.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/assets/images/favicon-x3.png" sizes="64x64">
     <link rel="icon" type="image/png" href="/assets/images/favicon-x4.png" sizes="128x128">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
     <!--Critical-->
     <style>
     .col-1,
