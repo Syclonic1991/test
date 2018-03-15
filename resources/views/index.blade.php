@@ -6,9 +6,11 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="format-detection" content="telephone=no">
-    
-    <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/x-icon">
-    <link rel="icon" href="/assets/images/favicon.png" type="image/x-icon">
+
+    <link rel="icon" type="image/png" href="/assets/images/favicon.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/assets/images/favicon-x2.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/assets/images/favicon-x3.png" sizes="64x64">
+    <link rel="icon" type="image/png" href="/assets/images/favicon-x4.png" sizes="128x128">
     <!--Critical-->
     <style>
     .col-1,
