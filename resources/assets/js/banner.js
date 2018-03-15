@@ -22,27 +22,31 @@ function isRetina() {
   return ((window.matchMedia && (window.matchMedia('only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx), only screen and (min-resolution: 75.6dpcm)').matches || window.matchMedia('only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2)').matches)) || (window.devicePixelRatio && window.devicePixelRatio >= 2));
 }
 
-function getImageDirectory() {
+function isMobile() {
   const mobileResolution = 768;
-  const desktopDir = 'desktop';
-  const mobileDir = 'mobile';
-  const retinaRir = '2x';
+  return window.innerWidth <= mobileResolution;
+}
 
-  const isMobile = window.innerWidth <= mobileResolution;
-  let imageVariant;
-  if (isMobile) {
-    imageVariant = isRetina() ? desktopDir : mobileDir;
+function getImageDirectory() {
+  const desktop = 'desktop';
+  const mobile = 'mobile';
+  const retina = '2x';
+
+  let directory;
+  if (isMobile()) {
+    directory = isRetina() ? desktop : mobile;
   } else {
-    imageVariant = isRetina() ? retinaRir : desktopDir;
+    directory = isRetina() ? retina : desktop;
   }
-  return imageVariant;
+  return directory;
 }
 
 let sources = _.shuffle(Array.from({ length: 30 }).map((item, idx) => `img-${idx + 1}.jpg`));
 
+window.banner = {};
 
 const loadImages = () => {
-  const imageVariant = getImageDirectory();
+  window.banner.directory = getImageDirectory();
   let imagesLoaded = 0;
 
   const countImagesInViewport = Array.from(document.querySelectorAll('.bannerImage img')).reduce((acc, elm) => {
@@ -69,7 +73,7 @@ const loadImages = () => {
       return;
     }
     const loadTimeStart = Date.now();
-    const sourcePath = `https://biospetsimg${(idx % 2) + 1}.abz.agency/assets/images/banner/${imageVariant}/`;
+    const sourcePath = `https://biospetsimg${(idx % 2) + 1}.abz.agency/assets/images/banner/${window.banner.directory}/`;
     const imageSource = sources[lastIndex];
     lastIndex += 1;
     elm.src = sourcePath + imageSource;
@@ -102,7 +106,8 @@ const resizeListener = () => {
   console.log('RESIZE LISTENER RUNNING');
   const images = document.querySelectorAll('.bannerImage img');
   Array.from(images).forEach((elm, idx) => {
-    if (inViewport(elm) && !elm.src) {
+    console.log((inViewport(elm) && (elm.parentElement.className.indexOf('ready') === -1)));
+    if ((inViewport(elm) && (elm.parentElement.className.indexOf('ready') === -1)) || (window.banner.directory !== getImageDirectory())) {
       console.log('THIS ELEMENT IS  IN VIEWPORT !! NEED TOL LOAD IMAGE', elm);
       _.throttle(() => {
         $('.bannerContainer').trigger('loading');
