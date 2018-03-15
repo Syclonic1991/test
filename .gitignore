@@ -3,8 +3,8 @@ package-lock.json
 /node_modules
 /public/hot
 /public/storage
-/public/js/
-/public/css/
+/public/css/app.css
+/public/js/app.js
 /public/mix-manifest.json
 /storage/*.key
 /vendor

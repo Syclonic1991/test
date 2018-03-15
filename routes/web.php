@@ -33,10 +33,81 @@ Route::get('/logout', 'Auth\LoginController@logout')->name('logout');
 
 Route::post('/admin', 'Auth\LoginController@login');
 
-//Route::get('/admin/dashboard', 'PromotionsController@getData')->middleware('auth');
+Route::get('/admin/promotions/show', 'Admin\PromotionController@getData')->name('getdata')->middleware('auth');
 
-Route::get('/admin/promotions/show', 'PromotionsController@getData')->name('getdata')->middleware('auth');
+//Route::get('/admin/promotions', 'Admin\PromotionController@index')->name('promotions')->middleware('auth');
 
-Route::get('/admin/promotions', 'PromotionsController@index')->middleware('auth');
+Route::resource('/admin/promotions', 'Admin\PromotionController', ['except' => ['show','store']])->middleware('auth');
+
+Route::post('admin/promotions/', 'Admin\PromotionController@store')->name('promotion.store');
+
+Route::get('admin/promotions/vardump',function(){
+    return view('admin.promotions.vardump');
+});
+
+
+
+
+Route::get('/admin/dashboard',function () {
+    return view('admin.home');
+})->middleware('auth');
+
+///////////////////////////////
+Route::get('/charts', function () {
+    return View::make('admin.charts');
+});
+
+Route::get('/tables', function () {
+    return View::make('admin.table');
+});
+
+Route::get('/forms', function () {
+    return View::make('admin.form');
+});
+
+Route::get('/grid', function () {
+    return View::make('admin.grid');
+});
+
+Route::get('/buttons', function () {
+    return View::make('admin.buttons');
+});
+
+Route::get('/icons', function () {
+    return View::make('admin.icons');
+});
+
+Route::get('/panels', function () {
+    return View::make('admin.panel');
+});
+
+Route::get('/typography', function () {
+    return View::make('admin.typography');
+});
+
+Route::get('/notifications', function () {
+    return View::make('admin.notifications');
+});
+
+Route::get('/blank', function () {
+    return View::make('admin.blank');
+});
+
+Route::get('/documentation', function () {
+    return View::make('admin.documentation');
+});
+
+Route::get('/stats', function() {
+    return View::make('admin.stats');
+});
+
+Route::get('/progressbars', function() {
+    return View::make('admin.progressbars');
+});
+
+Route::get('/collapse', function() {
+    return View::make('admin.collapse');
+});
+
 
 

@@ -24,18 +24,18 @@ class CreatePromotionsTable extends Migration
         Schema::create($this->set_schema_table, function (Blueprint $table) {
             $table->engine = 'InnoDB';
             $table->increments('id');
-            $table->dateTime('started_date');
-            $table->dateTime('end_date');
-            $table->enum('status', ['draft', 'active', 'not_active']);
-            $table->string('name', 250);
-            $table->text('description');
+            $table->date('started_date')->nullable();
+            $table->date('end_date')->nullable();
+            $table->enum('status', ['draft', 'active', 'not_active'])->nullable();
+            $table->string('name', 85)->nullable();
+            $table->text('description')->nullable();
             $table->unsignedInteger('created_by_user_id')->nullable();
             $table->unsignedInteger('updated_by_user_id')->nullable();
-            $table->string('img_preview', 250)->nullable();
-            $table->string('img_banner', 250)->nullable();
-            $table->string('meta_title', 250)->nullable();
-            $table->string('meta_keyword', 250)->nullable();
-            $table->string('meta_description', 250)->nullable();
+            $table->string('img_preview')->nullable();
+            $table->string('img_banner')->nullable();
+            $table->text('meta_title')->nullable();
+            $table->string('meta_description', 180)->nullable();
+            $table->string('meta_keyword')->nullable();
 
             $table->index(["updated_by_user_id"], 'promotions_fk_updated_by_admin_id_idx');
 
@@ -47,12 +47,12 @@ class CreatePromotionsTable extends Migration
             $table->foreign('created_by_user_id', 'promotions_fk_created_by_admin_id_idx')
                 ->references('id')->on('users')
                 ->onDelete('set null')
-                ->onUpdate('cascade');
+                ->onUpdate('no action');
 
             $table->foreign('updated_by_user_id', 'promotions_fk_updated_by_admin_id_idx')
                 ->references('id')->on('users')
                 ->onDelete('set null')
-                ->onUpdate('cascade');
+                ->onUpdate('no action');
         });
     }
 

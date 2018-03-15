@@ -14,7 +14,7 @@ class Promotion extends \Illuminate\Database\Eloquent\Model
         return array('started_date', 'end_date', 'deleted_at');
     }
 
-    protected $fillable = array('started_date', 'end_date', 'status', 'name', 'img', 'description', 'img_preview',
+    protected $fillable = array('started_date', 'end_date', 'status', 'name', 'description', 'created_by_user_id', 'img_preview',
         'img_banner', 'meta_title', 'meta_keyword', 'meta_description', 'deleted_at');
 
     public function usersCreatedBy()

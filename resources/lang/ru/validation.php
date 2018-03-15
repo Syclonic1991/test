@@ -104,8 +104,21 @@ return [
     |
     */
     'custom' => [
-        'attribute-name' => [
-            'rule-name' => 'custom-message',
+        'promotion_name' => [
+            'required' => 'Поле название акции обязательно для заполнения',
+            'max' => 'Поле название акции не может содержать более 255 символов'
+        ],
+        'promotion_description' => [
+            'required' => 'Поле описание акции обязательно для заполнения',
+        ],
+        'meta_title' => [
+            'max' => 'Поле meta_title не может содержать более 255 символов',
+        ],
+        'meta_description' => [
+            'max' => 'Поле meta_description не может содержать более 255 символов',
+        ],
+        'meta_keywords' => [
+            'max' => 'Поле meta_keywords не может содержать более 255 символов',
         ],
     ],
     /*

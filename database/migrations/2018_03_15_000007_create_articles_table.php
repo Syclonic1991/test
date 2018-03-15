@@ -24,10 +24,10 @@ class CreateArticlesTable extends Migration
         Schema::create($this->set_schema_table, function (Blueprint $table) {
             $table->engine = 'InnoDB';
             $table->increments('id');
-            $table->enum('status', ['draft', 'active', 'not_active']);
-            $table->string('name', 250);
-            $table->string('img', 250);
-            $table->text('description');
+            $table->enum('status', ['draft', 'active', 'not_active'])->nullable();
+            $table->string('name', 250)->nullable();
+            $table->string('img', 250)->nullable();
+            $table->text('description')->nullable();
             $table->string('slug', 250)->nullable();
             $table->unsignedInteger('created_by_user_id')->nullable();
             $table->unsignedInteger('updated_by_user_id')->nullable();
@@ -39,7 +39,7 @@ class CreateArticlesTable extends Migration
 
             $table->index(["created_by_user_id"], 'articles_fk_created_by_admin_id_idx');
             $table->softDeletes();
-            $table->timestamps();
+            $table->nullableTimestamps();
 
 
             $table->foreign('created_by_user_id', 'articles_fk_created_by_admin_id_idx')
