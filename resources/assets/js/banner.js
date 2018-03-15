@@ -50,7 +50,7 @@ let sources = [
   // '/assets/images/banner/img-29.jpg',
   // '/assets/images/banner/img-30.jpg'
 ];
-Array.from({ length: 30 }).map((item, idx) => sources.push(`https://biospets.abz.agency/assets/images/banner/img-${idx + 1}.jpg`));
+Array.from({ length: 30 }).map((item, idx) => sources.push(`https://biospetsimg${(idx % 2) + 1}.abz.agency/assets/images/banner/img-${idx + 1}.jpg`));
 sources = _.shuffle(sources);
 
 
