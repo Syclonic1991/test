@@ -504,9 +504,7 @@ input[type=checkbox]:checked + label:after {
 }
 
 .dropDownArrow {
-  background-image: url('/assets/images/arrowDown.svg');
-  background-position: center;
-  background-repeat: no-repeat;
+  background: #fff url('/assets/images/arrowDown.svg') no-repeat center;
   border: 1px solid $fieldColor;
   border-left: 0;
   box-shadow: none;
