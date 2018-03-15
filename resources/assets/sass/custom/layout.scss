@@ -127,13 +127,14 @@ html, body {
 
 .projectBtn {
   height: 36px;
-  line-height: 36px;
+  line-height: 34px;
   border-radius: 2px;
   font-family: $body-font-1;
   font-size: 14px;
   font-weight: 300;
+  letter-spacing: 0.3px;
   cursor: pointer;
-  border: 0;
+  border: 1px solid transparent;
   text-align: center;
   &--1 {
     color: $whiteColor;
@@ -158,7 +159,7 @@ html, body {
   }
   &.disabled,
   &:disabled {
-    background-color: $disabledColor;
+    background-color: $disabledColor-1;
     cursor: default;
     background-image: none;
   }
@@ -207,11 +208,11 @@ html, body {
   }
   &:disabled,
   &.disabled {
-    color: $disabledColor;
+    color: $disabledColor-2;
     cursor: default;
     &:after {
       background-image: url('/assets/images/rounded.svg');
-      background-color: $disabledColor;
+      background-color: $disabledColor-2;
       background-position: center;
     }
   }
@@ -232,7 +233,7 @@ html, body {
   height: 52px;
   border-radius: 50%;
   overflow: hidden;
-  background-color: $secondaryColor-1;
+  background-color: $primaryColor;
   cursor: pointer;
   position: relative;
   opacity: .5;
@@ -284,7 +285,7 @@ a {
 }
 
 .projectLink {
-  color: $secondaryColor-1;
+  color: $primaryColor;
   font-family: $body-font-1;
   font-size: 14px;
   font-weight: 400;
@@ -358,7 +359,7 @@ input[type=checkbox]:checked + label:after {
   &.disabled {
     svg {
       path {
-        fill: $disabledColor;
+        fill: $disabledColor-1;
       }
     }
   }
@@ -371,6 +372,8 @@ input[type=checkbox]:checked + label:after {
 .alphabeticalBlock {
   height: 40px;
   padding: 10px;
+  font-size: 18px;
+  font-family: $body-font-1;
   text-align: center;
   color: $fontColor;
   background-color: $whiteColor;
@@ -389,7 +392,7 @@ input[type=checkbox]:checked + label:after {
   }
   &--active {
     color: $whiteColor;
-    background-color: $disabledColor;
+    background-color: $disabledColor-1;
   }
 }
 
@@ -464,7 +467,7 @@ input[type=checkbox]:checked + label:after {
 
 .projectFormCounter {
   color: $labelColor;
-  font-family: "Open Sans";
+  font-family: $body-font-1;
   font-size: 12px;
   font-weight: 400;
   position: absolute;
@@ -487,15 +490,15 @@ input[type=checkbox]:checked + label:after {
 
 .dropDownBtn {
   height: 40px;
-  line-height: 40px;
   border-radius: 1px;
   border: 1px solid $fieldColor;
   background-color: $whiteColor;
   width: 100%;
+  font-family: $body-font-1;
   text-align: left;
   border-right: 0;
   cursor: pointer;
-  font-weight: 300;
+  font-weight: 400;
   padding-left: 13px;
   line-height: 36px;
 }
