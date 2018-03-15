@@ -18,43 +18,31 @@ function inViewport(el) {
   );
 }
 
-let sources = [
-  // '/assets/images/banner/img-1.jpg',
-  // '/assets/images/banner/img-2.jpg',
-  // '/assets/images/banner/img-3.jpg',
-  // '/assets/images/banner/img-4.jpg',
-  // '/assets/images/banner/img-5.jpg',
-  // '/assets/images/banner/img-6.jpg',
-  // '/assets/images/banner/img-7.jpg',
-  // '/assets/images/banner/img-8.jpg',
-  // '/assets/images/banner/img-9.jpg',
-  // '/assets/images/banner/img-10.jpg',
-  // '/assets/images/banner/img-11.jpg',
-  // '/assets/images/banner/img-12.jpg',
-  // '/assets/images/banner/img-13.jpg',
-  // '/assets/images/banner/img-14.jpg',
-  // '/assets/images/banner/img-15.jpg',
-  // '/assets/images/banner/img-16.jpg',
-  // '/assets/images/banner/img-17.jpg',
-  // '/assets/images/banner/img-18.jpg',
-  // '/assets/images/banner/img-19.jpg',
-  // '/assets/images/banner/img-20.jpg',
-  // '/assets/images/banner/img-21.jpg',
-  // '/assets/images/banner/img-22.jpg',
-  // '/assets/images/banner/img-23.jpg',
-  // '/assets/images/banner/img-24.jpg',
-  // '/assets/images/banner/img-25.jpg',
-  // '/assets/images/banner/img-26.jpg',
-  // '/assets/images/banner/img-27.jpg',
-  // '/assets/images/banner/img-28.jpg',
-  // '/assets/images/banner/img-29.jpg',
-  // '/assets/images/banner/img-30.jpg'
-];
-Array.from({ length: 30 }).map((item, idx) => sources.push(`https://biospetsimg${(idx % 2) + 1}.abz.agency/assets/images/banner/img-${idx + 1}.jpg`));
-sources = _.shuffle(sources);
+function isRetina() {
+  return ((window.matchMedia && (window.matchMedia('only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx), only screen and (min-resolution: 75.6dpcm)').matches || window.matchMedia('only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2)').matches)) || (window.devicePixelRatio && window.devicePixelRatio >= 2));
+}
+
+function getImageDirectory() {
+  const mobileResolution = 768;
+  const desktopDir = 'desktop';
+  const mobileDir = 'mobile';
+  const retinaRir = '2x';
+
+  const isMobile = window.innerWidth <= mobileResolution;
+  let imageVariant;
+  if (isMobile) {
+    imageVariant = isRetina() ? desktopDir : mobileDir;
+  } else {
+    imageVariant = isRetina() ? retinaRir : desktopDir;
+  }
+  return imageVariant;
+}
+
+let sources = _.shuffle(Array.from({ length: 30 }).map((item, idx) => `img-${idx + 1}.jpg`));
 
 
 const loadImages = () => {
+  const imageVariant = getImageDirectory();
   let imagesLoaded = 0;
 
   const countImagesInViewport = Array.from(document.querySelectorAll('.bannerImage img')).reduce((acc, elm) => {
@@ -81,8 +69,10 @@ const loadImages = () => {
       return;
     }
     const loadTimeStart = Date.now();
-    const imageSource = sources[lastIndex++];
-    elm.src = imageSource;
+    const sourcePath = `https://biospetsimg${(idx % 2) + 1}.abz.agency/assets/images/banner/${imageVariant}/`;
+    const imageSource = sources[lastIndex];
+    lastIndex += 1;
+    elm.src = sourcePath + imageSource;
     elm.onload = () => {
       // if (Date.now() - loadTimeStart < 0) {
       console.log('MANUAL TIMEOUT');
@@ -125,3 +115,4 @@ const resizeListener = () => {
 };
 
 window.addEventListener('resize', _.debounce(resizeListener, 500));
+window.addEventListener('scroll', _.debounce(resizeListener, 500));
