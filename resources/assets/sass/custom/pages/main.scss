@@ -502,6 +502,10 @@
   position: relative;
   background-color: #0494df;
   overflow: hidden;
+  margin-top: -100px;
+  @media(max-width: $breakpointTablet) {
+    margin-top: -27px;
+  }
 }
 .bannerBlockLine {
   display: flex;
@@ -515,12 +519,7 @@
     background: rgba(0,0,0,.1);
   }
 }
-.bannerBlockLine-1 {
-  margin-top: -100px;
-  @media(max-width: $breakpointTablet) {
-    margin-top: -27px;
-  }
-}
+
 .bannerImage {
   width: 256px;
   height: 190px;

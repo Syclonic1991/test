@@ -244,7 +244,7 @@
                 <div class="col-6">
                     <div class="projectFormGroup projectFormGroup--withError">
                         <label>Label</label>
-                        <div class="projectFormCounter">356 / 300</div>
+                        <div class="projectFormCounter">Exceeded the number of characters&nbsp;&nbsp;&nbsp;&nbsp;356 / 300</div>
                         <textarea class="projectFormControl">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt</textarea>
                     </div>
                 </div>

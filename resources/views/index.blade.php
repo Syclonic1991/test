@@ -7,10 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="format-detection" content="telephone=no">
 
-    <link rel="icon" type="image/png" href="/assets/images/favicon.png" sizes="16x16">
-    <link rel="icon" type="image/png" href="/assets/images/favicon-x2.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="/assets/images/favicon-x3.png" sizes="64x64">
-    <link rel="icon" type="image/png" href="/assets/images/favicon-x4.png" sizes="128x128">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
     <!--Critical-->
     <style>
     .col-1,
