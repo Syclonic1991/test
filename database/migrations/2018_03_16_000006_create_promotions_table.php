@@ -26,7 +26,7 @@ class CreatePromotionsTable extends Migration
             $table->increments('id');
             $table->date('started_date')->nullable();
             $table->date('end_date')->nullable();
-            $table->enum('status', ['draft', 'active', 'not_active'])->nullable();
+            $table->enum('status', ['Черновик', 'Активна', 'Неактивна'])->nullable();
             $table->string('name', 85)->nullable();
             $table->text('description')->nullable();
             $table->unsignedInteger('created_by_user_id')->nullable();

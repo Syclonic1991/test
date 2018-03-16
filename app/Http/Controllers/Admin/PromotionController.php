@@ -44,44 +44,47 @@ class PromotionController extends Controller
     {
         $userId = Auth::id();
 
-        if ($request->status != 'draft') {
+        if ($request->status != 'Черновик') {
             $validator = Validator::make($request->all(), [
-                'promotion_name' => 'required|max:255',
-                'promotion_description' => 'required|max:255',
-                'meta_title' => 'max:255',
-                'meta_description' => 'max:255',
+                'promotion_name' => 'required|max:85',
+                'promotion_description' => 'required',
+                'meta_description' => 'max:180',
                 'meta_keywords' => 'max:255',
             ]);
-
             if ($validator->fails()) {
                 return redirect('admin/promotions/create')
                     ->withErrors($validator)
                     ->withInput();
             } else {
-                if ($request->has('meta_title')) {
-                    $metaTitle = $request->meta_title;
+                if ($request->filled('meta_title')) {
+                    $meta_title = htmlspecialchars($request->meta_title) ;
                 } else {
-                    $metaTitle = Transliterate::make($request->name, ['type' => 'url', 'lowercase' => 'true']);
+                    $meta_title = htmlspecialchars($request->promotion_name);
                 }
 
-                if ($request->has('meta_description')) {
-                    $metaDescription = $request->meta_description;
+                if ($request->filled('meta_description')) {
+                    $meta_description = htmlspecialchars($request->meta_description) ;
+                } else {
+                    $shortMetaDescription = substr($request->promotion_description, 0, 180);
+                    $meta_description = strip_tags($shortMetaDescription);
                 }
 
                 Promotion::create([
-                    'name' => $request->promotion_name,
-                    'description' => $request->promotion_description,
+                    'name' => htmlspecialchars($request->promotion_name),
+                    'description' => htmlspecialchars($request->promotion_description),
                     'status' => $request->status,
                     'started_date' => Carbon::createFromFormat('d.m.Y', $request->started_date, 'UTC'),
                     'end_date' => Carbon::createFromFormat('d.m.Y', $request->end_date, 'UTC'),
                     'created_by_user_id' => $userId,
-                    'meta_title' => $metaTitle,
-                    'meta_description' => $metaDescription
+                    'meta_title' => $meta_title,
+                    'meta_description' => $meta_description,
+                    'meta_keywords'=> htmlspecialchars($request->meta_keywords)
                 ]);
-                //return view('admin/promotions/vardump')->with('myVar', $request->started_at);
+                //return view('admin/promotions/vardump')->with('myVar', $request->meta_title);
                 return redirect('/admin/promotions/')->with('successMessage', 'Статья успешно добавлена в базу данных');
             }
         } else {
+            //Дописать логику для черновика с новым валидатором
             return redirect('/admin/promotions')->with('successMessage', 'Черновик статьи успешно добавлен в базу данных');
         }
 
